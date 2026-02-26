@@ -60,6 +60,8 @@ class Simply_RandomView extends WatchUi.View {
     public var main_die = new Dice();
     
     public var rand1 = (Math.rand()%6)+1;
+    public var randBool;
+    public var randInt;
     
     
 
@@ -69,6 +71,8 @@ class Simply_RandomView extends WatchUi.View {
     }
     function roll(){
         rand1 = (Math.rand()%6)+1;
+        randBool = (Math.rand()%2);
+        
     }
     function onLayout(dc as Dc) as Void {
        
@@ -84,13 +88,31 @@ class Simply_RandomView extends WatchUi.View {
 
     var screen_height = dc.getHeight();
     var screen_width = dc.getWidth();
+    var dc_height = dc.getHeight();
+    var dc_width = dc.getWidth();
+    var range_min = Properties.getValue("RangeMin");
+    var range_max = Properties.getValue("RangeMax");
+    var range_diff = range_max - range_min; 
+    randBool = Math.rand()%2;   
 
         View.onUpdate(dc);
 
         dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_BLACK);
-        dc.drawText(screen_width/2,screen_height*0.75,Graphics.FONT_MEDIUM,rand1,Graphics.TEXT_JUSTIFY_CENTER);
         
-        main_die.draw(dc,screen_width/2,screen_height/2,screen_height/4,rand1.toNumber());
+        if (randBool == 0){
+            dc.drawText(screen_width/2,screen_height/16,Graphics.FONT_SMALL,"No",Graphics.TEXT_JUSTIFY_CENTER);
+        }
+        else if(randBool == 1){
+            dc.drawText(screen_width/2,screen_height/16,Graphics.FONT_TINY,"Yes",Graphics.TEXT_JUSTIFY_CENTER);
+        }
+
+        main_die.draw(dc,screen_width/3,screen_height/2,screen_height/4,((Math.rand()%6)+1).toNumber());
+        main_die.draw(dc,screen_width*2/3,screen_height/2,screen_height/4,((Math.rand()%6)+1).toNumber());
+
+        var randInt = (Math.rand() % (range_diff + 1))+range_min;
+        dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
+        // dc.drawRectangle(0,0,dc_width,dc_height);
+        dc.drawText(dc_width/2,dc_height*7/8,Graphics.FONT_LARGE,randInt, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
     }
 
 
@@ -119,8 +141,8 @@ class Simply_RandomGlance extends WatchUi.GlanceView{
 
         if (glance_mode == 0){
         dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
-        glance_die.draw(dc,dc_width*2/3,dc_height/2,dc_height*0.75,(Math.rand()%6)+1);
-        glance_die.draw(dc,dc_width/3,dc_height/2,dc_height*0.75,(Math.rand()%6)+1);
+        glance_die.draw(dc,dc_width*3/4,dc_height/2,dc_height*0.75,(Math.rand()%6)+1);
+        glance_die.draw(dc,dc_width/4,dc_height/2,dc_height*0.75,(Math.rand()%6)+1);
         }
 
         else if(glance_mode == 1){
