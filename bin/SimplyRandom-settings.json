@@ -1,0 +1,69 @@
+{
+  "settings" : [ {
+    "key" : "GlanceMode",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "$literal0$",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "$literal1$",
+      "value" : 0
+    }, {
+      "display" : "$literal2$",
+      "value" : 1
+    }, {
+      "display" : "$literal3$",
+      "value" : 3
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "RangeMin",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "$literal4$",
+    "configPrompt" : null,
+    "configType" : "numeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "RangeMax",
+    "valueType" : "number",
+    "defaultValue" : 100,
+    "configTitle" : "$literal5$",
+    "configPrompt" : null,
+    "configType" : "numeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  } ],
+  "supportsLiveValidation" : false,
+  "languages" : {
+    "valyrian" : {
+      "$literal1$" : "Pair of Dice",
+      "$literal0$" : "Glance Content",
+      "$literal3$" : "Yes / No",
+      "$literal2$" : "Random Number",
+      "$literal5$" : "Max Number",
+      "$literal4$" : "Min Number",
+      "AppName" : "Simply-Random"
+    }
+  }
+}

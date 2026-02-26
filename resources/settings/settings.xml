@@ -1,0 +1,23 @@
+<settings>
+    <setting propertyKey="@Properties.GlanceMode" title="Glance Content">
+        <settingConfig type="list">
+            <listEntry value="0">Pair of Dice</listEntry>
+            <listEntry value="1">Random Number</listEntry>
+            <!-- <listEntry value="2">Random Name</listEntry> -->
+            <listEntry value="3">Yes / No</listEntry>
+            <!-- <listEntry value="4">Rock Paper Scissors</listEntry> -->
+            <!-- <listEntry value="5">Magic 8 Ball</listEntry> -->
+        </settingConfig>
+    </setting>
+
+    <!-- <setting propertyKey="@Properties.NameList" title="Name List">
+        <settingConfig type="alphaNumeric" />
+    </setting> -->
+
+    <setting propertyKey="@Properties.RangeMin" title="Min Number">
+        <settingConfig type="numeric" />
+    </setting>
+    <setting propertyKey="@Properties.RangeMax" title="Max Number">
+        <settingConfig type="numeric" />
+    </setting>
+</settings>

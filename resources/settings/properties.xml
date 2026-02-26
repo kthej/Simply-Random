@@ -1,0 +1,8 @@
+<properties>
+    <property id="GlanceMode" type="number">0</property>
+    
+    <!-- <property id="NameList" type="string">Alice, Bob, Charlie</property> -->
+    
+    <property id="RangeMin" type="number">1</property>
+    <property id="RangeMax" type="number">100</property>
+</properties>
