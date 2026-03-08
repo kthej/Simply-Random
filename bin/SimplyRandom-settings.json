@@ -2,7 +2,7 @@
   "settings" : [ {
     "key" : "GlanceMode",
     "valueType" : "number",
-    "defaultValue" : 0,
+    "defaultValue" : 2,
     "configTitle" : "$literal0$",
     "configPrompt" : null,
     "configType" : "list",
@@ -25,6 +25,9 @@
     }, {
       "display" : "$literal5$",
       "value" : 4
+    }, {
+      "display" : "$literal6$",
+      "value" : 5
     } ],
     "configMin" : null,
     "configMax" : null,
@@ -33,7 +36,7 @@
     "key" : "NameList",
     "valueType" : "string",
     "defaultValue" : "Alice, Bob, Charlie",
-    "configTitle" : "$literal6$",
+    "configTitle" : "$literal7$",
     "configPrompt" : null,
     "configType" : "alphaNumeric",
     "configError" : null,
@@ -48,7 +51,7 @@
     "key" : "RangeMin",
     "valueType" : "number",
     "defaultValue" : 1,
-    "configTitle" : "$literal7$",
+    "configTitle" : "$literal8$",
     "configPrompt" : null,
     "configType" : "numeric",
     "configError" : null,
@@ -63,7 +66,7 @@
     "key" : "RangeMax",
     "valueType" : "number",
     "defaultValue" : 100,
-    "configTitle" : "$literal8$",
+    "configTitle" : "$literal9$",
     "configPrompt" : null,
     "configType" : "numeric",
     "configError" : null,
@@ -84,9 +87,10 @@
       "$literal2$" : "Random Number",
       "$literal5$" : "Rock Paper Scissors",
       "$literal4$" : "Yes / No",
-      "$literal7$" : "Min Number",
-      "$literal6$" : "Name List (separate by commas)",
-      "$literal8$" : "Max Number",
+      "$literal7$" : "Name List (separate by commas)",
+      "$literal6$" : "Magic 8 Ball",
+      "$literal9$" : "Max Number",
+      "$literal8$" : "Min Number",
       "AppName" : "Simply-Random"
     }
   }

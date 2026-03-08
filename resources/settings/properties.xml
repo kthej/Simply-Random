@@ -1,5 +1,5 @@
 <properties>
-    <property id="GlanceMode" type="number">0</property>
+    <property id="GlanceMode" type="number">2</property>
     
     <property id="NameList" type="string">Alice, Bob, Charlie</property>
     

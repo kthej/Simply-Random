@@ -6,7 +6,7 @@
             <listEntry value="2">Random Name</listEntry>
             <listEntry value="3">Yes / No</listEntry>
             <listEntry value="4">Rock Paper Scissors</listEntry>
-            <!-- <listEntry value="5">Magic 8 Ball</listEntry> -->
+            <listEntry value="5">Magic 8 Ball</listEntry>
         </settingConfig>
     </setting>
 

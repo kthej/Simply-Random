@@ -131,11 +131,15 @@ class Simply_RandomGlance extends WatchUi.GlanceView{
     
     public var rpsInt;
     public var rpsResult;
+    public var nameInt;
+    public var nameResult;
+    public var eightBallInt;
+    public var eightBallResult;
 
     function initialize(){
         GlanceView.initialize();
     }
-    
+
     function onUpdate(dc as Dc) as Void{
 
         var dc_height = dc.getHeight();
@@ -157,7 +161,39 @@ class Simply_RandomGlance extends WatchUi.GlanceView{
         dc.drawText(dc_width/2,dc_height/2,Graphics.FONT_LARGE,randInt, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
         }
         else if(glance_mode == 2){
-            
+            // AI-Generated code to handle parsing name list into accessible array
+            var rawNameList = Properties.getValue("NameList").toCharArray();
+            var finalNameList = [];
+            var currentName = "";
+            var char;
+
+            for (var i = 0; i < rawNameList.size(); i++) {
+                char = rawNameList[i];
+
+                if (char == ',') {
+                    // If we hit a comma, save the current string and reset it
+                    if (currentName.length() > 0) {
+                        finalNameList.add(currentName);
+                        currentName = "";
+                    }
+                } else {
+                // No need for .toChar() if the array already contains Char objects
+                currentName += rawNameList[i];
+            }   
+            }
+
+            // Add the very last name after the final comma (or if there was only one name)
+            if (currentName.length() > 0) {
+                finalNameList.add(currentName);
+            }
+
+            // 'names' is now ["Alice", "Bob", "Charlie"] 
+            nameInt = Math.rand() % finalNameList.size().toNumber();
+            nameResult = finalNameList[nameInt];
+
+            dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
+            dc.drawRectangle(0,0,dc_width,dc_height);
+            dc.drawText(dc_width/2,dc_height/2,Graphics.FONT_MEDIUM,nameResult, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);           
         }
         else if(glance_mode == 3){
             var randBool = (Math.rand() % 2);
@@ -181,6 +217,37 @@ class Simply_RandomGlance extends WatchUi.GlanceView{
             dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
             dc.drawRectangle(0,0,dc_width,dc_height);
             dc.drawText(dc_width/2,dc_height/2,Graphics.FONT_LARGE,rpsResult, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        }
+        else if(glance_mode == 5){
+
+            var eightBallArray = [
+            "It is certain.",
+            "It is decidedly so.",
+            "Without a doubt.",
+            "Yes definitely.",
+            "You may rely on it.",
+            "As I see it, yes.",
+            "Most likely.",
+            "Outlook good.",
+            "Yes.",
+            "Signs point to yes.",
+            "Reply hazy,\n try again",
+            "Ask again later.",
+            "Better not\n tell you now.",
+            "Cannot predict now.",
+            "Concentrate and\n ask again.",
+            "Don't count on it.",
+            "My reply is no.",
+            "My sources say no.",
+            "Outlook\n not so good.",
+            "Very doubtful."
+             ];
+            eightBallInt = Math.rand() % eightBallArray.size().toNumber();
+            eightBallResult = eightBallArray[eightBallInt];
+
+            dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
+            dc.drawRectangle(0,0,dc_width,dc_height);
+            dc.drawText(dc_width/2,dc_height/2,Graphics.FONT_TINY,eightBallResult, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
         }
 
     }
