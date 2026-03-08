@@ -2,7 +2,7 @@
   "settings" : [ {
     "key" : "GlanceMode",
     "valueType" : "number",
-    "defaultValue" : 2,
+    "defaultValue" : 5,
     "configTitle" : "$literal0$",
     "configPrompt" : null,
     "configType" : "list",

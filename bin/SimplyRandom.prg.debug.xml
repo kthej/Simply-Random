@@ -109,7 +109,7 @@
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc" id="12" lineNum="36" parent="globals" pc="268437348" symbol="getApp"/>
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc" id="12" lineNum="37" parent="globals" pc="268437358" symbol="getApp"/>
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/InputHandling.mc" id="13" lineNum="5" parent="globals/Simply_RandomDelegate" pc="268437369" symbol="&lt;init&gt;"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/bin/gen/006-B4061-00/source/Rez.mcgen" id="14" lineNum="7" parent="globals/Rez" pc="268437381" symbol="&lt;init&gt;"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/bin/gen/006-B4432-00/source/Rez.mcgen" id="14" lineNum="7" parent="globals/Rez" pc="268437381" symbol="&lt;init&gt;"/>
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="15" lineNum="58" parent="globals/Simply_RandomView" pc="268437401" symbol="&lt;init&gt;"/>
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="15" lineNum="62" parent="globals/Simply_RandomView" pc="268437412" symbol="&lt;init&gt;"/>
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="15" lineNum="64" parent="globals/Simply_RandomView" pc="268437437" symbol="&lt;init&gt;"/>
@@ -243,7 +243,7 @@
         <entry endPc="268437986" name="range_diff" stackId="8" startPc="268437593"/>
         <entry endPc="268437986" name="randInt" stackId="9" startPc="268437593"/>
     </localVars>
-    <deviceInfo deviceVersion="5c7ae9cf907f88c116a91dc4ffd75be9b5b7d2e9" partNumber="006-B4061-00"/>
+    <deviceInfo deviceVersion="5c7ae9cf907f88c116a91dc4ffd75be9b5b7d2e9" partNumber="006-B4432-00"/>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
         <annotationEntry annotation="glance" class="Simply_RandomApp" module="globals" symbol="onStop"/>
