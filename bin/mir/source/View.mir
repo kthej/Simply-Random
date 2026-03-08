@@ -1,653 +1,653 @@
-[ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+[ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
 import Toybox.Graphics;
-[ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+[ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Math,3,14,18]; ]
+[ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Math,3,14,18]; ]
 import Toybox.Math;
-[ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [System,4,14,20]; ]
+[ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [System,4,14,20]; ]
 import Toybox.System;
-[ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Application,5,14,25]; @symbol_importdef<2> = [Properties,5,26,36]; ]
+[ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Application,5,14,25]; @symbol_importdef<2> = [Properties,5,26,36]; ]
 import Toybox.Application.Properties;
-[ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 7; @position = 11; @symbol_vardef = [mainRand,7,11,19]; ]
+[ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 7; @position = 11; @symbol_vardef = [mainRand,7,11,19]; ]
 var mainRand;
-[ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 10; glance = true; @symbol_classdef = [Dice,10,6,10]; ]
+[ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 12; glance = true; @symbol_classdef = [Dice,12,6,10]; ]
 class Dice {
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 10; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 12; ]
     <init> {
     }
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 10; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 12; ]
     static
     <init> {
     }
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 11; @position = 8; @symbol_vardef = [x_pos,11,8,13]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 13; @position = 8; @symbol_vardef = [x_pos,13,8,13]; ]
     var x_pos;
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 11; @position = 15; @symbol_vardef = [y_pos,11,15,20]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 13; @position = 15; @symbol_vardef = [y_pos,13,15,20]; ]
     var y_pos;
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 11; @position = 22; @symbol_vardef = [side,11,22,26]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 13; @position = 22; @symbol_vardef = [side,13,22,26]; ]
     var side;
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 11; @position = 28; @symbol_vardef = [number,11,28,34]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 13; @position = 28; @symbol_vardef = [number,13,28,34]; ]
     var number;
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 11; @position = 36; @symbol_vardef = [radius,11,36,42]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 13; @position = 36; @symbol_vardef = [radius,13,36,42]; ]
     var radius;
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 12; @symbol_functiondef = [initialize,12,13,23]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 14; @symbol_functiondef = [initialize,14,13,23]; ]
     function initialize() as Void {
     }
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 15; @symbol_functiondef = [draw,15,13,17]; @symbol_param<0> = [dc,15,18,20]; @symbol_param<0>_type<0> = [Dc,15,24,26]; @symbol_param<1> = [x_pos,15,27,32]; @symbol_param<2> = [y_pos,15,33,38]; @symbol_param<3> = [side,15,39,43]; @symbol_param<4> = [number,15,44,50]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 17; @symbol_functiondef = [draw,17,13,17]; @symbol_param<0> = [dc,17,18,20]; @symbol_param<0>_type<0> = [Dc,17,24,26]; @symbol_param<1> = [x_pos,17,27,32]; @symbol_param<2> = [y_pos,17,33,38]; @symbol_param<3> = [side,17,39,43]; @symbol_param<4> = [number,17,44,50]; ]
     function draw(dc as Dc, x_pos, y_pos, side, number) {
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_15_51_54_4_start:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 16 8 ]
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_17_51_56_4_start:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 18 8 ]
         %tmp.1 = lgetv %dc;
-        symbol [ dc %tmp.1 16 8 10 ];
-        symbol [ setColor %tmp.2 16 11 19 ];
+        symbol [ dc %tmp.1 18 8 10 ];
+        symbol [ setColor %tmp.2 18 11 19 ];
         %tmp.2 = getv function %tmp.1 :setColor;
-        symbol [ Graphics %tmp.3 16 20 28 ];
+        symbol [ Graphics %tmp.3 18 20 28 ];
         %tmp.3 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.4 16 29 40 ];
+        symbol [ COLOR_WHITE %tmp.4 18 29 40 ];
         %tmp.4 = getv %tmp.3 :COLOR_WHITE;
-        symbol [ Graphics %tmp.5 16 41 49 ];
+        symbol [ Graphics %tmp.5 18 41 49 ];
         %tmp.5 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.6 16 50 67 ];
+        symbol [ COLOR_TRANSPARENT %tmp.6 18 50 67 ];
         %tmp.6 = getv %tmp.5 :COLOR_TRANSPARENT;
         invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 17 8 ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 19 8 ]
         %tmp.7 = lgetv %dc;
-        symbol [ dc %tmp.7 17 8 10 ];
-        symbol [ fillRoundedRectangle %tmp.8 17 11 31 ];
+        symbol [ dc %tmp.7 19 8 10 ];
+        symbol [ fillRoundedRectangle %tmp.8 19 11 31 ];
         %tmp.8 = getv function %tmp.7 :fillRoundedRectangle;
         %tmp.9 = lgetv %x_pos;
-        symbol [ x_pos %tmp.9 17 32 37 ];
+        symbol [ x_pos %tmp.9 19 32 37 ];
         %tmp.10 = lgetv %side;
-        symbol [ side %tmp.10 17 39 43 ];
+        symbol [ side %tmp.10 19 39 43 ];
         %tmp.11 = 2;
         %tmp.12 = div %tmp.10 %tmp.11;
         %tmp.13 = sub %tmp.9 %tmp.12;
         %tmp.14 = lgetv %y_pos;
-        symbol [ y_pos %tmp.14 17 46 51 ];
+        symbol [ y_pos %tmp.14 19 46 51 ];
         %tmp.15 = lgetv %side;
-        symbol [ side %tmp.15 17 54 58 ];
+        symbol [ side %tmp.15 19 54 58 ];
         %tmp.16 = 2;
         %tmp.17 = div %tmp.15 %tmp.16;
         %tmp.18 = sub %tmp.14 %tmp.17;
         %tmp.19 = lgetv %side;
-        symbol [ side %tmp.19 17 61 65 ];
+        symbol [ side %tmp.19 19 61 65 ];
         %tmp.20 = lgetv %side;
-        symbol [ side %tmp.20 17 66 70 ];
+        symbol [ side %tmp.20 19 66 70 ];
         %tmp.21 = lgetv %side;
-        symbol [ side %tmp.21 17 71 75 ];
+        symbol [ side %tmp.21 19 71 75 ];
         %tmp.22 = 5;
         %tmp.23 = div %tmp.21 %tmp.22;
         invoke %tmp.7 %tmp.8(%tmp.13, %tmp.18, %tmp.19, %tmp.20, %tmp.23);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 18 8 ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 20 8 ]
         %tmp.24 = lgetv %dc;
-        symbol [ dc %tmp.24 18 8 10 ];
-        symbol [ setColor %tmp.25 18 11 19 ];
+        symbol [ dc %tmp.24 20 8 10 ];
+        symbol [ setColor %tmp.25 20 11 19 ];
         %tmp.25 = getv function %tmp.24 :setColor;
-        symbol [ Graphics %tmp.26 18 20 28 ];
+        symbol [ Graphics %tmp.26 20 20 28 ];
         %tmp.26 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLACK %tmp.27 18 29 40 ];
+        symbol [ COLOR_BLACK %tmp.27 20 29 40 ];
         %tmp.27 = getv %tmp.26 :COLOR_BLACK;
-        symbol [ Graphics %tmp.28 18 41 49 ];
+        symbol [ Graphics %tmp.28 20 41 49 ];
         %tmp.28 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.29 18 50 67 ];
+        symbol [ COLOR_TRANSPARENT %tmp.29 20 50 67 ];
         %tmp.29 = getv %tmp.28 :COLOR_TRANSPARENT;
         invoke %tmp.24 %tmp.25(%tmp.27, %tmp.29);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 19 8 ]
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_19_8_52_8_if_stmt:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 21 8 ]
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_21_8_54_8_if_stmt:
         %tmp.30 = lgetv %number;
-        symbol [ number %tmp.30 19 11 17 ];
+        symbol [ number %tmp.30 21 11 17 ];
         %tmp.31 = 1;
         %tmp.32 = eq %tmp.30 %tmp.31;
-        bf %tmp.32 @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_19_8_52_8_if_false;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_19_8_52_8_if_true:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_19_23_22_8_start:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 21 12 ]
+        bf %tmp.32 @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_21_8_54_8_if_false;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_21_8_54_8_if_true:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_21_23_24_8_start:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 23 12 ]
         %tmp.33 = lgetv %dc;
-        symbol [ dc %tmp.33 21 12 14 ];
-        symbol [ fillCircle %tmp.34 21 15 25 ];
+        symbol [ dc %tmp.33 23 12 14 ];
+        symbol [ fillCircle %tmp.34 23 15 25 ];
         %tmp.34 = getv function %tmp.33 :fillCircle;
         %tmp.35 = lgetv %x_pos;
-        symbol [ x_pos %tmp.35 21 26 31 ];
+        symbol [ x_pos %tmp.35 23 26 31 ];
         %tmp.36 = lgetv %y_pos;
-        symbol [ y_pos %tmp.36 21 32 37 ];
+        symbol [ y_pos %tmp.36 23 32 37 ];
         %tmp.37 = lgetv %side;
-        symbol [ side %tmp.37 21 38 42 ];
+        symbol [ side %tmp.37 23 38 42 ];
         %tmp.38 = 10;
         %tmp.39 = div %tmp.37 %tmp.38;
         invoke %tmp.33 %tmp.34(%tmp.35, %tmp.36, %tmp.39);
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_19_23_22_8_stop:
-        goto @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_19_8_52_8_if_end;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_19_8_52_8_if_false:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 23 13 ]
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_23_13_52_8_if_stmt:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_21_23_24_8_stop:
+        goto @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_21_8_54_8_if_end;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_21_8_54_8_if_false:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 25 13 ]
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_25_13_54_8_if_stmt:
         %tmp.40 = lgetv %number;
-        symbol [ number %tmp.40 23 16 22 ];
+        symbol [ number %tmp.40 25 16 22 ];
         %tmp.41 = 2;
         %tmp.42 = eq %tmp.40 %tmp.41;
-        bf %tmp.42 @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_23_13_52_8_if_false;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_23_13_52_8_if_true:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_23_28_26_8_start:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 24 12 ]
+        bf %tmp.42 @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_25_13_54_8_if_false;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_25_13_54_8_if_true:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_25_28_28_8_start:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 26 12 ]
         %tmp.43 = lgetv %dc;
-        symbol [ dc %tmp.43 24 12 14 ];
-        symbol [ fillCircle %tmp.44 24 15 25 ];
+        symbol [ dc %tmp.43 26 12 14 ];
+        symbol [ fillCircle %tmp.44 26 15 25 ];
         %tmp.44 = getv function %tmp.43 :fillCircle;
         %tmp.45 = lgetv %x_pos;
-        symbol [ x_pos %tmp.45 24 26 31 ];
+        symbol [ x_pos %tmp.45 26 26 31 ];
         %tmp.46 = lgetv %side;
-        symbol [ side %tmp.46 24 32 36 ];
+        symbol [ side %tmp.46 26 32 36 ];
         %tmp.47 = 4;
         %tmp.48 = div %tmp.46 %tmp.47;
         %tmp.49 = add %tmp.45 %tmp.48;
         %tmp.50 = lgetv %y_pos;
-        symbol [ y_pos %tmp.50 24 39 44 ];
+        symbol [ y_pos %tmp.50 26 39 44 ];
         %tmp.51 = lgetv %side;
-        symbol [ side %tmp.51 24 45 49 ];
+        symbol [ side %tmp.51 26 45 49 ];
         %tmp.52 = 4;
         %tmp.53 = div %tmp.51 %tmp.52;
         %tmp.54 = sub %tmp.50 %tmp.53;
         %tmp.55 = lgetv %side;
-        symbol [ side %tmp.55 24 52 56 ];
+        symbol [ side %tmp.55 26 52 56 ];
         %tmp.56 = 10;
         %tmp.57 = div %tmp.55 %tmp.56;
         invoke %tmp.43 %tmp.44(%tmp.49, %tmp.54, %tmp.57);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 25 12 ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 27 12 ]
         %tmp.58 = lgetv %dc;
-        symbol [ dc %tmp.58 25 12 14 ];
-        symbol [ fillCircle %tmp.59 25 15 25 ];
+        symbol [ dc %tmp.58 27 12 14 ];
+        symbol [ fillCircle %tmp.59 27 15 25 ];
         %tmp.59 = getv function %tmp.58 :fillCircle;
         %tmp.60 = lgetv %x_pos;
-        symbol [ x_pos %tmp.60 25 26 31 ];
+        symbol [ x_pos %tmp.60 27 26 31 ];
         %tmp.61 = lgetv %side;
-        symbol [ side %tmp.61 25 32 36 ];
+        symbol [ side %tmp.61 27 32 36 ];
         %tmp.62 = 4;
         %tmp.63 = div %tmp.61 %tmp.62;
         %tmp.64 = sub %tmp.60 %tmp.63;
         %tmp.65 = lgetv %y_pos;
-        symbol [ y_pos %tmp.65 25 39 44 ];
+        symbol [ y_pos %tmp.65 27 39 44 ];
         %tmp.66 = lgetv %side;
-        symbol [ side %tmp.66 25 45 49 ];
+        symbol [ side %tmp.66 27 45 49 ];
         %tmp.67 = 4;
         %tmp.68 = div %tmp.66 %tmp.67;
         %tmp.69 = add %tmp.65 %tmp.68;
         %tmp.70 = lgetv %side;
-        symbol [ side %tmp.70 25 52 56 ];
+        symbol [ side %tmp.70 27 52 56 ];
         %tmp.71 = 10;
         %tmp.72 = div %tmp.70 %tmp.71;
         invoke %tmp.58 %tmp.59(%tmp.64, %tmp.69, %tmp.72);
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_23_28_26_8_stop:
-        goto @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_23_13_52_8_if_end;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_23_13_52_8_if_false:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 27 13 ]
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_27_13_52_8_if_stmt:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_25_28_28_8_stop:
+        goto @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_25_13_54_8_if_end;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_25_13_54_8_if_false:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 29 13 ]
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_29_13_54_8_if_stmt:
         %tmp.73 = lgetv %number;
-        symbol [ number %tmp.73 27 16 22 ];
+        symbol [ number %tmp.73 29 16 22 ];
         %tmp.74 = 3;
         %tmp.75 = eq %tmp.73 %tmp.74;
-        bf %tmp.75 @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_27_13_52_8_if_false;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_27_13_52_8_if_true:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_27_28_31_8_start:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 28 12 ]
+        bf %tmp.75 @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_29_13_54_8_if_false;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_29_13_54_8_if_true:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_29_28_33_8_start:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 30 12 ]
         %tmp.76 = lgetv %dc;
-        symbol [ dc %tmp.76 28 12 14 ];
-        symbol [ fillCircle %tmp.77 28 15 25 ];
+        symbol [ dc %tmp.76 30 12 14 ];
+        symbol [ fillCircle %tmp.77 30 15 25 ];
         %tmp.77 = getv function %tmp.76 :fillCircle;
         %tmp.78 = lgetv %x_pos;
-        symbol [ x_pos %tmp.78 28 26 31 ];
+        symbol [ x_pos %tmp.78 30 26 31 ];
         %tmp.79 = lgetv %side;
-        symbol [ side %tmp.79 28 32 36 ];
+        symbol [ side %tmp.79 30 32 36 ];
         %tmp.80 = 4;
         %tmp.81 = div %tmp.79 %tmp.80;
         %tmp.82 = add %tmp.78 %tmp.81;
         %tmp.83 = lgetv %y_pos;
-        symbol [ y_pos %tmp.83 28 39 44 ];
+        symbol [ y_pos %tmp.83 30 39 44 ];
         %tmp.84 = lgetv %side;
-        symbol [ side %tmp.84 28 45 49 ];
+        symbol [ side %tmp.84 30 45 49 ];
         %tmp.85 = 4;
         %tmp.86 = div %tmp.84 %tmp.85;
         %tmp.87 = sub %tmp.83 %tmp.86;
         %tmp.88 = lgetv %side;
-        symbol [ side %tmp.88 28 52 56 ];
+        symbol [ side %tmp.88 30 52 56 ];
         %tmp.89 = 10;
         %tmp.90 = div %tmp.88 %tmp.89;
         invoke %tmp.76 %tmp.77(%tmp.82, %tmp.87, %tmp.90);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 29 12 ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 31 12 ]
         %tmp.91 = lgetv %dc;
-        symbol [ dc %tmp.91 29 12 14 ];
-        symbol [ fillCircle %tmp.92 29 15 25 ];
+        symbol [ dc %tmp.91 31 12 14 ];
+        symbol [ fillCircle %tmp.92 31 15 25 ];
         %tmp.92 = getv function %tmp.91 :fillCircle;
         %tmp.93 = lgetv %x_pos;
-        symbol [ x_pos %tmp.93 29 26 31 ];
+        symbol [ x_pos %tmp.93 31 26 31 ];
         %tmp.94 = lgetv %y_pos;
-        symbol [ y_pos %tmp.94 29 32 37 ];
+        symbol [ y_pos %tmp.94 31 32 37 ];
         %tmp.95 = lgetv %side;
-        symbol [ side %tmp.95 29 38 42 ];
+        symbol [ side %tmp.95 31 38 42 ];
         %tmp.96 = 10;
         %tmp.97 = div %tmp.95 %tmp.96;
         invoke %tmp.91 %tmp.92(%tmp.93, %tmp.94, %tmp.97);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 30 12 ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 32 12 ]
         %tmp.98 = lgetv %dc;
-        symbol [ dc %tmp.98 30 12 14 ];
-        symbol [ fillCircle %tmp.99 30 15 25 ];
+        symbol [ dc %tmp.98 32 12 14 ];
+        symbol [ fillCircle %tmp.99 32 15 25 ];
         %tmp.99 = getv function %tmp.98 :fillCircle;
         %tmp.100 = lgetv %x_pos;
-        symbol [ x_pos %tmp.100 30 26 31 ];
+        symbol [ x_pos %tmp.100 32 26 31 ];
         %tmp.101 = lgetv %side;
-        symbol [ side %tmp.101 30 32 36 ];
+        symbol [ side %tmp.101 32 32 36 ];
         %tmp.102 = 4;
         %tmp.103 = div %tmp.101 %tmp.102;
         %tmp.104 = sub %tmp.100 %tmp.103;
         %tmp.105 = lgetv %y_pos;
-        symbol [ y_pos %tmp.105 30 39 44 ];
+        symbol [ y_pos %tmp.105 32 39 44 ];
         %tmp.106 = lgetv %side;
-        symbol [ side %tmp.106 30 45 49 ];
+        symbol [ side %tmp.106 32 45 49 ];
         %tmp.107 = 4;
         %tmp.108 = div %tmp.106 %tmp.107;
         %tmp.109 = add %tmp.105 %tmp.108;
         %tmp.110 = lgetv %side;
-        symbol [ side %tmp.110 30 52 56 ];
+        symbol [ side %tmp.110 32 52 56 ];
         %tmp.111 = 10;
         %tmp.112 = div %tmp.110 %tmp.111;
         invoke %tmp.98 %tmp.99(%tmp.104, %tmp.109, %tmp.112);
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_27_28_31_8_stop:
-        goto @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_27_13_52_8_if_end;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_27_13_52_8_if_false:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 32 13 ]
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_32_13_52_8_if_stmt:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_29_28_33_8_stop:
+        goto @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_29_13_54_8_if_end;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_29_13_54_8_if_false:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 34 13 ]
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_34_13_54_8_if_stmt:
         %tmp.113 = lgetv %number;
-        symbol [ number %tmp.113 32 16 22 ];
+        symbol [ number %tmp.113 34 16 22 ];
         %tmp.114 = 4;
         %tmp.115 = eq %tmp.113 %tmp.114;
-        bf %tmp.115 @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_32_13_52_8_if_false;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_32_13_52_8_if_true:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_32_28_37_8_start:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 33 12 ]
+        bf %tmp.115 @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_34_13_54_8_if_false;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_34_13_54_8_if_true:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_34_28_39_8_start:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 35 12 ]
         %tmp.116 = lgetv %dc;
-        symbol [ dc %tmp.116 33 12 14 ];
-        symbol [ fillCircle %tmp.117 33 15 25 ];
+        symbol [ dc %tmp.116 35 12 14 ];
+        symbol [ fillCircle %tmp.117 35 15 25 ];
         %tmp.117 = getv function %tmp.116 :fillCircle;
         %tmp.118 = lgetv %x_pos;
-        symbol [ x_pos %tmp.118 33 26 31 ];
+        symbol [ x_pos %tmp.118 35 26 31 ];
         %tmp.119 = lgetv %side;
-        symbol [ side %tmp.119 33 32 36 ];
+        symbol [ side %tmp.119 35 32 36 ];
         %tmp.120 = 4;
         %tmp.121 = div %tmp.119 %tmp.120;
         %tmp.122 = add %tmp.118 %tmp.121;
         %tmp.123 = lgetv %y_pos;
-        symbol [ y_pos %tmp.123 33 39 44 ];
+        symbol [ y_pos %tmp.123 35 39 44 ];
         %tmp.124 = lgetv %side;
-        symbol [ side %tmp.124 33 45 49 ];
+        symbol [ side %tmp.124 35 45 49 ];
         %tmp.125 = 4;
         %tmp.126 = div %tmp.124 %tmp.125;
         %tmp.127 = add %tmp.123 %tmp.126;
         %tmp.128 = lgetv %side;
-        symbol [ side %tmp.128 33 52 56 ];
+        symbol [ side %tmp.128 35 52 56 ];
         %tmp.129 = 10;
         %tmp.130 = div %tmp.128 %tmp.129;
         invoke %tmp.116 %tmp.117(%tmp.122, %tmp.127, %tmp.130);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 34 12 ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 36 12 ]
         %tmp.131 = lgetv %dc;
-        symbol [ dc %tmp.131 34 12 14 ];
-        symbol [ fillCircle %tmp.132 34 15 25 ];
+        symbol [ dc %tmp.131 36 12 14 ];
+        symbol [ fillCircle %tmp.132 36 15 25 ];
         %tmp.132 = getv function %tmp.131 :fillCircle;
         %tmp.133 = lgetv %x_pos;
-        symbol [ x_pos %tmp.133 34 26 31 ];
+        symbol [ x_pos %tmp.133 36 26 31 ];
         %tmp.134 = lgetv %side;
-        symbol [ side %tmp.134 34 32 36 ];
+        symbol [ side %tmp.134 36 32 36 ];
         %tmp.135 = 4;
         %tmp.136 = div %tmp.134 %tmp.135;
         %tmp.137 = sub %tmp.133 %tmp.136;
         %tmp.138 = lgetv %y_pos;
-        symbol [ y_pos %tmp.138 34 39 44 ];
+        symbol [ y_pos %tmp.138 36 39 44 ];
         %tmp.139 = lgetv %side;
-        symbol [ side %tmp.139 34 45 49 ];
+        symbol [ side %tmp.139 36 45 49 ];
         %tmp.140 = 4;
         %tmp.141 = div %tmp.139 %tmp.140;
         %tmp.142 = sub %tmp.138 %tmp.141;
         %tmp.143 = lgetv %side;
-        symbol [ side %tmp.143 34 52 56 ];
+        symbol [ side %tmp.143 36 52 56 ];
         %tmp.144 = 10;
         %tmp.145 = div %tmp.143 %tmp.144;
         invoke %tmp.131 %tmp.132(%tmp.137, %tmp.142, %tmp.145);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 35 12 ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 37 12 ]
         %tmp.146 = lgetv %dc;
-        symbol [ dc %tmp.146 35 12 14 ];
-        symbol [ fillCircle %tmp.147 35 15 25 ];
+        symbol [ dc %tmp.146 37 12 14 ];
+        symbol [ fillCircle %tmp.147 37 15 25 ];
         %tmp.147 = getv function %tmp.146 :fillCircle;
         %tmp.148 = lgetv %x_pos;
-        symbol [ x_pos %tmp.148 35 26 31 ];
+        symbol [ x_pos %tmp.148 37 26 31 ];
         %tmp.149 = lgetv %side;
-        symbol [ side %tmp.149 35 32 36 ];
+        symbol [ side %tmp.149 37 32 36 ];
         %tmp.150 = 4;
         %tmp.151 = div %tmp.149 %tmp.150;
         %tmp.152 = add %tmp.148 %tmp.151;
         %tmp.153 = lgetv %y_pos;
-        symbol [ y_pos %tmp.153 35 39 44 ];
+        symbol [ y_pos %tmp.153 37 39 44 ];
         %tmp.154 = lgetv %side;
-        symbol [ side %tmp.154 35 45 49 ];
+        symbol [ side %tmp.154 37 45 49 ];
         %tmp.155 = 4;
         %tmp.156 = div %tmp.154 %tmp.155;
         %tmp.157 = sub %tmp.153 %tmp.156;
         %tmp.158 = lgetv %side;
-        symbol [ side %tmp.158 35 52 56 ];
+        symbol [ side %tmp.158 37 52 56 ];
         %tmp.159 = 10;
         %tmp.160 = div %tmp.158 %tmp.159;
         invoke %tmp.146 %tmp.147(%tmp.152, %tmp.157, %tmp.160);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 36 12 ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 38 12 ]
         %tmp.161 = lgetv %dc;
-        symbol [ dc %tmp.161 36 12 14 ];
-        symbol [ fillCircle %tmp.162 36 15 25 ];
+        symbol [ dc %tmp.161 38 12 14 ];
+        symbol [ fillCircle %tmp.162 38 15 25 ];
         %tmp.162 = getv function %tmp.161 :fillCircle;
         %tmp.163 = lgetv %x_pos;
-        symbol [ x_pos %tmp.163 36 26 31 ];
+        symbol [ x_pos %tmp.163 38 26 31 ];
         %tmp.164 = lgetv %side;
-        symbol [ side %tmp.164 36 32 36 ];
+        symbol [ side %tmp.164 38 32 36 ];
         %tmp.165 = 4;
         %tmp.166 = div %tmp.164 %tmp.165;
         %tmp.167 = sub %tmp.163 %tmp.166;
         %tmp.168 = lgetv %y_pos;
-        symbol [ y_pos %tmp.168 36 39 44 ];
+        symbol [ y_pos %tmp.168 38 39 44 ];
         %tmp.169 = lgetv %side;
-        symbol [ side %tmp.169 36 45 49 ];
+        symbol [ side %tmp.169 38 45 49 ];
         %tmp.170 = 4;
         %tmp.171 = div %tmp.169 %tmp.170;
         %tmp.172 = add %tmp.168 %tmp.171;
         %tmp.173 = lgetv %side;
-        symbol [ side %tmp.173 36 52 56 ];
+        symbol [ side %tmp.173 38 52 56 ];
         %tmp.174 = 10;
         %tmp.175 = div %tmp.173 %tmp.174;
         invoke %tmp.161 %tmp.162(%tmp.167, %tmp.172, %tmp.175);
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_32_28_37_8_stop:
-        goto @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_32_13_52_8_if_end;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_32_13_52_8_if_false:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 38 13 ]
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_38_13_52_8_if_stmt:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_34_28_39_8_stop:
+        goto @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_34_13_54_8_if_end;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_34_13_54_8_if_false:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 40 13 ]
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_40_13_54_8_if_stmt:
         %tmp.176 = lgetv %number;
-        symbol [ number %tmp.176 38 16 22 ];
+        symbol [ number %tmp.176 40 16 22 ];
         %tmp.177 = 5;
         %tmp.178 = eq %tmp.176 %tmp.177;
-        bf %tmp.178 @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_38_13_52_8_if_false;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_38_13_52_8_if_true:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_38_28_44_8_start:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 39 12 ]
+        bf %tmp.178 @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_40_13_54_8_if_false;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_40_13_54_8_if_true:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_40_28_46_8_start:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 41 12 ]
         %tmp.179 = lgetv %dc;
-        symbol [ dc %tmp.179 39 12 14 ];
-        symbol [ fillCircle %tmp.180 39 15 25 ];
+        symbol [ dc %tmp.179 41 12 14 ];
+        symbol [ fillCircle %tmp.180 41 15 25 ];
         %tmp.180 = getv function %tmp.179 :fillCircle;
         %tmp.181 = lgetv %x_pos;
-        symbol [ x_pos %tmp.181 39 26 31 ];
+        symbol [ x_pos %tmp.181 41 26 31 ];
         %tmp.182 = lgetv %y_pos;
-        symbol [ y_pos %tmp.182 39 32 37 ];
+        symbol [ y_pos %tmp.182 41 32 37 ];
         %tmp.183 = lgetv %side;
-        symbol [ side %tmp.183 39 38 42 ];
+        symbol [ side %tmp.183 41 38 42 ];
         %tmp.184 = 10;
         %tmp.185 = div %tmp.183 %tmp.184;
         invoke %tmp.179 %tmp.180(%tmp.181, %tmp.182, %tmp.185);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 40 12 ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 42 12 ]
         %tmp.186 = lgetv %dc;
-        symbol [ dc %tmp.186 40 12 14 ];
-        symbol [ fillCircle %tmp.187 40 15 25 ];
+        symbol [ dc %tmp.186 42 12 14 ];
+        symbol [ fillCircle %tmp.187 42 15 25 ];
         %tmp.187 = getv function %tmp.186 :fillCircle;
         %tmp.188 = lgetv %x_pos;
-        symbol [ x_pos %tmp.188 40 26 31 ];
+        symbol [ x_pos %tmp.188 42 26 31 ];
         %tmp.189 = lgetv %side;
-        symbol [ side %tmp.189 40 32 36 ];
+        symbol [ side %tmp.189 42 32 36 ];
         %tmp.190 = 4;
         %tmp.191 = div %tmp.189 %tmp.190;
         %tmp.192 = add %tmp.188 %tmp.191;
         %tmp.193 = lgetv %y_pos;
-        symbol [ y_pos %tmp.193 40 39 44 ];
+        symbol [ y_pos %tmp.193 42 39 44 ];
         %tmp.194 = lgetv %side;
-        symbol [ side %tmp.194 40 45 49 ];
+        symbol [ side %tmp.194 42 45 49 ];
         %tmp.195 = 4;
         %tmp.196 = div %tmp.194 %tmp.195;
         %tmp.197 = add %tmp.193 %tmp.196;
         %tmp.198 = lgetv %side;
-        symbol [ side %tmp.198 40 52 56 ];
+        symbol [ side %tmp.198 42 52 56 ];
         %tmp.199 = 10;
         %tmp.200 = div %tmp.198 %tmp.199;
         invoke %tmp.186 %tmp.187(%tmp.192, %tmp.197, %tmp.200);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 41 12 ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 43 12 ]
         %tmp.201 = lgetv %dc;
-        symbol [ dc %tmp.201 41 12 14 ];
-        symbol [ fillCircle %tmp.202 41 15 25 ];
+        symbol [ dc %tmp.201 43 12 14 ];
+        symbol [ fillCircle %tmp.202 43 15 25 ];
         %tmp.202 = getv function %tmp.201 :fillCircle;
         %tmp.203 = lgetv %x_pos;
-        symbol [ x_pos %tmp.203 41 26 31 ];
+        symbol [ x_pos %tmp.203 43 26 31 ];
         %tmp.204 = lgetv %side;
-        symbol [ side %tmp.204 41 32 36 ];
+        symbol [ side %tmp.204 43 32 36 ];
         %tmp.205 = 4;
         %tmp.206 = div %tmp.204 %tmp.205;
         %tmp.207 = sub %tmp.203 %tmp.206;
         %tmp.208 = lgetv %y_pos;
-        symbol [ y_pos %tmp.208 41 39 44 ];
+        symbol [ y_pos %tmp.208 43 39 44 ];
         %tmp.209 = lgetv %side;
-        symbol [ side %tmp.209 41 45 49 ];
+        symbol [ side %tmp.209 43 45 49 ];
         %tmp.210 = 4;
         %tmp.211 = div %tmp.209 %tmp.210;
         %tmp.212 = sub %tmp.208 %tmp.211;
         %tmp.213 = lgetv %side;
-        symbol [ side %tmp.213 41 52 56 ];
+        symbol [ side %tmp.213 43 52 56 ];
         %tmp.214 = 10;
         %tmp.215 = div %tmp.213 %tmp.214;
         invoke %tmp.201 %tmp.202(%tmp.207, %tmp.212, %tmp.215);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 42 12 ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 44 12 ]
         %tmp.216 = lgetv %dc;
-        symbol [ dc %tmp.216 42 12 14 ];
-        symbol [ fillCircle %tmp.217 42 15 25 ];
+        symbol [ dc %tmp.216 44 12 14 ];
+        symbol [ fillCircle %tmp.217 44 15 25 ];
         %tmp.217 = getv function %tmp.216 :fillCircle;
         %tmp.218 = lgetv %x_pos;
-        symbol [ x_pos %tmp.218 42 26 31 ];
+        symbol [ x_pos %tmp.218 44 26 31 ];
         %tmp.219 = lgetv %side;
-        symbol [ side %tmp.219 42 32 36 ];
+        symbol [ side %tmp.219 44 32 36 ];
         %tmp.220 = 4;
         %tmp.221 = div %tmp.219 %tmp.220;
         %tmp.222 = add %tmp.218 %tmp.221;
         %tmp.223 = lgetv %y_pos;
-        symbol [ y_pos %tmp.223 42 39 44 ];
+        symbol [ y_pos %tmp.223 44 39 44 ];
         %tmp.224 = lgetv %side;
-        symbol [ side %tmp.224 42 45 49 ];
+        symbol [ side %tmp.224 44 45 49 ];
         %tmp.225 = 4;
         %tmp.226 = div %tmp.224 %tmp.225;
         %tmp.227 = sub %tmp.223 %tmp.226;
         %tmp.228 = lgetv %side;
-        symbol [ side %tmp.228 42 52 56 ];
+        symbol [ side %tmp.228 44 52 56 ];
         %tmp.229 = 10;
         %tmp.230 = div %tmp.228 %tmp.229;
         invoke %tmp.216 %tmp.217(%tmp.222, %tmp.227, %tmp.230);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 43 12 ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 45 12 ]
         %tmp.231 = lgetv %dc;
-        symbol [ dc %tmp.231 43 12 14 ];
-        symbol [ fillCircle %tmp.232 43 15 25 ];
+        symbol [ dc %tmp.231 45 12 14 ];
+        symbol [ fillCircle %tmp.232 45 15 25 ];
         %tmp.232 = getv function %tmp.231 :fillCircle;
         %tmp.233 = lgetv %x_pos;
-        symbol [ x_pos %tmp.233 43 26 31 ];
+        symbol [ x_pos %tmp.233 45 26 31 ];
         %tmp.234 = lgetv %side;
-        symbol [ side %tmp.234 43 32 36 ];
+        symbol [ side %tmp.234 45 32 36 ];
         %tmp.235 = 4;
         %tmp.236 = div %tmp.234 %tmp.235;
         %tmp.237 = sub %tmp.233 %tmp.236;
         %tmp.238 = lgetv %y_pos;
-        symbol [ y_pos %tmp.238 43 39 44 ];
+        symbol [ y_pos %tmp.238 45 39 44 ];
         %tmp.239 = lgetv %side;
-        symbol [ side %tmp.239 43 45 49 ];
+        symbol [ side %tmp.239 45 45 49 ];
         %tmp.240 = 4;
         %tmp.241 = div %tmp.239 %tmp.240;
         %tmp.242 = add %tmp.238 %tmp.241;
         %tmp.243 = lgetv %side;
-        symbol [ side %tmp.243 43 52 56 ];
+        symbol [ side %tmp.243 45 52 56 ];
         %tmp.244 = 10;
         %tmp.245 = div %tmp.243 %tmp.244;
         invoke %tmp.231 %tmp.232(%tmp.237, %tmp.242, %tmp.245);
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_38_28_44_8_stop:
-        goto @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_38_13_52_8_if_end;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_38_13_52_8_if_false:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 45 13 ]
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_45_13_52_8_if_stmt:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_40_28_46_8_stop:
+        goto @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_40_13_54_8_if_end;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_40_13_54_8_if_false:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 47 13 ]
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_47_13_54_8_if_stmt:
         %tmp.246 = lgetv %number;
-        symbol [ number %tmp.246 45 16 22 ];
+        symbol [ number %tmp.246 47 16 22 ];
         %tmp.247 = 6;
         %tmp.248 = eq %tmp.246 %tmp.247;
-        bf %tmp.248 @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_45_13_52_8_if_end;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_45_13_52_8_if_true:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_45_28_52_8_start:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 46 12 ]
+        bf %tmp.248 @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_47_13_54_8_if_end;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_47_13_54_8_if_true:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_47_28_54_8_start:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 48 12 ]
         %tmp.249 = lgetv %dc;
-        symbol [ dc %tmp.249 46 12 14 ];
-        symbol [ fillCircle %tmp.250 46 15 25 ];
+        symbol [ dc %tmp.249 48 12 14 ];
+        symbol [ fillCircle %tmp.250 48 15 25 ];
         %tmp.250 = getv function %tmp.249 :fillCircle;
         %tmp.251 = lgetv %x_pos;
-        symbol [ x_pos %tmp.251 46 26 31 ];
+        symbol [ x_pos %tmp.251 48 26 31 ];
         %tmp.252 = lgetv %side;
-        symbol [ side %tmp.252 46 32 36 ];
+        symbol [ side %tmp.252 48 32 36 ];
         %tmp.253 = 4;
         %tmp.254 = div %tmp.252 %tmp.253;
         %tmp.255 = sub %tmp.251 %tmp.254;
         %tmp.256 = lgetv %y_pos;
-        symbol [ y_pos %tmp.256 46 39 44 ];
+        symbol [ y_pos %tmp.256 48 39 44 ];
         %tmp.257 = lgetv %side;
-        symbol [ side %tmp.257 46 45 49 ];
+        symbol [ side %tmp.257 48 45 49 ];
         %tmp.258 = 10;
         %tmp.259 = div %tmp.257 %tmp.258;
         invoke %tmp.249 %tmp.250(%tmp.255, %tmp.256, %tmp.259);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 47 12 ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 49 12 ]
         %tmp.260 = lgetv %dc;
-        symbol [ dc %tmp.260 47 12 14 ];
-        symbol [ fillCircle %tmp.261 47 15 25 ];
+        symbol [ dc %tmp.260 49 12 14 ];
+        symbol [ fillCircle %tmp.261 49 15 25 ];
         %tmp.261 = getv function %tmp.260 :fillCircle;
         %tmp.262 = lgetv %x_pos;
-        symbol [ x_pos %tmp.262 47 26 31 ];
+        symbol [ x_pos %tmp.262 49 26 31 ];
         %tmp.263 = lgetv %side;
-        symbol [ side %tmp.263 47 32 36 ];
+        symbol [ side %tmp.263 49 32 36 ];
         %tmp.264 = 4;
         %tmp.265 = div %tmp.263 %tmp.264;
         %tmp.266 = add %tmp.262 %tmp.265;
         %tmp.267 = lgetv %y_pos;
-        symbol [ y_pos %tmp.267 47 39 44 ];
+        symbol [ y_pos %tmp.267 49 39 44 ];
         %tmp.268 = lgetv %side;
-        symbol [ side %tmp.268 47 45 49 ];
+        symbol [ side %tmp.268 49 45 49 ];
         %tmp.269 = 10;
         %tmp.270 = div %tmp.268 %tmp.269;
         invoke %tmp.260 %tmp.261(%tmp.266, %tmp.267, %tmp.270);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 48 12 ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 50 12 ]
         %tmp.271 = lgetv %dc;
-        symbol [ dc %tmp.271 48 12 14 ];
-        symbol [ fillCircle %tmp.272 48 15 25 ];
+        symbol [ dc %tmp.271 50 12 14 ];
+        symbol [ fillCircle %tmp.272 50 15 25 ];
         %tmp.272 = getv function %tmp.271 :fillCircle;
         %tmp.273 = lgetv %x_pos;
-        symbol [ x_pos %tmp.273 48 26 31 ];
+        symbol [ x_pos %tmp.273 50 26 31 ];
         %tmp.274 = lgetv %side;
-        symbol [ side %tmp.274 48 32 36 ];
+        symbol [ side %tmp.274 50 32 36 ];
         %tmp.275 = 4;
         %tmp.276 = div %tmp.274 %tmp.275;
         %tmp.277 = add %tmp.273 %tmp.276;
         %tmp.278 = lgetv %y_pos;
-        symbol [ y_pos %tmp.278 48 39 44 ];
+        symbol [ y_pos %tmp.278 50 39 44 ];
         %tmp.279 = lgetv %side;
-        symbol [ side %tmp.279 48 45 49 ];
+        symbol [ side %tmp.279 50 45 49 ];
         %tmp.280 = 4;
         %tmp.281 = div %tmp.279 %tmp.280;
         %tmp.282 = add %tmp.278 %tmp.281;
         %tmp.283 = lgetv %side;
-        symbol [ side %tmp.283 48 52 56 ];
+        symbol [ side %tmp.283 50 52 56 ];
         %tmp.284 = 10;
         %tmp.285 = div %tmp.283 %tmp.284;
         invoke %tmp.271 %tmp.272(%tmp.277, %tmp.282, %tmp.285);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 49 12 ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 51 12 ]
         %tmp.286 = lgetv %dc;
-        symbol [ dc %tmp.286 49 12 14 ];
-        symbol [ fillCircle %tmp.287 49 15 25 ];
+        symbol [ dc %tmp.286 51 12 14 ];
+        symbol [ fillCircle %tmp.287 51 15 25 ];
         %tmp.287 = getv function %tmp.286 :fillCircle;
         %tmp.288 = lgetv %x_pos;
-        symbol [ x_pos %tmp.288 49 26 31 ];
+        symbol [ x_pos %tmp.288 51 26 31 ];
         %tmp.289 = lgetv %side;
-        symbol [ side %tmp.289 49 32 36 ];
+        symbol [ side %tmp.289 51 32 36 ];
         %tmp.290 = 4;
         %tmp.291 = div %tmp.289 %tmp.290;
         %tmp.292 = sub %tmp.288 %tmp.291;
         %tmp.293 = lgetv %y_pos;
-        symbol [ y_pos %tmp.293 49 39 44 ];
+        symbol [ y_pos %tmp.293 51 39 44 ];
         %tmp.294 = lgetv %side;
-        symbol [ side %tmp.294 49 45 49 ];
+        symbol [ side %tmp.294 51 45 49 ];
         %tmp.295 = 4;
         %tmp.296 = div %tmp.294 %tmp.295;
         %tmp.297 = sub %tmp.293 %tmp.296;
         %tmp.298 = lgetv %side;
-        symbol [ side %tmp.298 49 52 56 ];
+        symbol [ side %tmp.298 51 52 56 ];
         %tmp.299 = 10;
         %tmp.300 = div %tmp.298 %tmp.299;
         invoke %tmp.286 %tmp.287(%tmp.292, %tmp.297, %tmp.300);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 50 12 ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 52 12 ]
         %tmp.301 = lgetv %dc;
-        symbol [ dc %tmp.301 50 12 14 ];
-        symbol [ fillCircle %tmp.302 50 15 25 ];
+        symbol [ dc %tmp.301 52 12 14 ];
+        symbol [ fillCircle %tmp.302 52 15 25 ];
         %tmp.302 = getv function %tmp.301 :fillCircle;
         %tmp.303 = lgetv %x_pos;
-        symbol [ x_pos %tmp.303 50 26 31 ];
+        symbol [ x_pos %tmp.303 52 26 31 ];
         %tmp.304 = lgetv %side;
-        symbol [ side %tmp.304 50 32 36 ];
+        symbol [ side %tmp.304 52 32 36 ];
         %tmp.305 = 4;
         %tmp.306 = div %tmp.304 %tmp.305;
         %tmp.307 = add %tmp.303 %tmp.306;
         %tmp.308 = lgetv %y_pos;
-        symbol [ y_pos %tmp.308 50 39 44 ];
+        symbol [ y_pos %tmp.308 52 39 44 ];
         %tmp.309 = lgetv %side;
-        symbol [ side %tmp.309 50 45 49 ];
+        symbol [ side %tmp.309 52 45 49 ];
         %tmp.310 = 4;
         %tmp.311 = div %tmp.309 %tmp.310;
         %tmp.312 = sub %tmp.308 %tmp.311;
         %tmp.313 = lgetv %side;
-        symbol [ side %tmp.313 50 52 56 ];
+        symbol [ side %tmp.313 52 52 56 ];
         %tmp.314 = 10;
         %tmp.315 = div %tmp.313 %tmp.314;
         invoke %tmp.301 %tmp.302(%tmp.307, %tmp.312, %tmp.315);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 51 12 ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 53 12 ]
         %tmp.316 = lgetv %dc;
-        symbol [ dc %tmp.316 51 12 14 ];
-        symbol [ fillCircle %tmp.317 51 15 25 ];
+        symbol [ dc %tmp.316 53 12 14 ];
+        symbol [ fillCircle %tmp.317 53 15 25 ];
         %tmp.317 = getv function %tmp.316 :fillCircle;
         %tmp.318 = lgetv %x_pos;
-        symbol [ x_pos %tmp.318 51 26 31 ];
+        symbol [ x_pos %tmp.318 53 26 31 ];
         %tmp.319 = lgetv %side;
-        symbol [ side %tmp.319 51 32 36 ];
+        symbol [ side %tmp.319 53 32 36 ];
         %tmp.320 = 4;
         %tmp.321 = div %tmp.319 %tmp.320;
         %tmp.322 = sub %tmp.318 %tmp.321;
         %tmp.323 = lgetv %y_pos;
-        symbol [ y_pos %tmp.323 51 39 44 ];
+        symbol [ y_pos %tmp.323 53 39 44 ];
         %tmp.324 = lgetv %side;
-        symbol [ side %tmp.324 51 45 49 ];
+        symbol [ side %tmp.324 53 45 49 ];
         %tmp.325 = 4;
         %tmp.326 = div %tmp.324 %tmp.325;
         %tmp.327 = add %tmp.323 %tmp.326;
         %tmp.328 = lgetv %side;
-        symbol [ side %tmp.328 51 52 56 ];
+        symbol [ side %tmp.328 53 52 56 ];
         %tmp.329 = 10;
         %tmp.330 = div %tmp.328 %tmp.329;
         invoke %tmp.316 %tmp.317(%tmp.322, %tmp.327, %tmp.330);
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_45_28_52_8_stop:
-        goto @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_45_13_52_8_if_end;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_45_13_52_8_if_end:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_38_13_52_8_if_end:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_32_13_52_8_if_end:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_27_13_52_8_if_end:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_23_13_52_8_if_end:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_19_8_52_8_if_end:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_15_51_54_4_stop:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_47_28_54_8_stop:
+        goto @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_47_13_54_8_if_end;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_47_13_54_8_if_end:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_40_13_54_8_if_end:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_34_13_54_8_if_end:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_29_13_54_8_if_end:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_25_13_54_8_if_end:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_21_8_54_8_if_end:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_17_51_56_4_stop:
     }
 }
-[ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 56; @symbol_classdef = [Simply_RandomView,56,6,23]; @symbol_extends<0> = [WatchUi,56,32,39]; @symbol_extends<1> = [View,56,40,44]; ]
+[ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 58; @symbol_classdef = [Simply_RandomView,58,6,23]; @symbol_extends<0> = [WatchUi,58,32,39]; @symbol_extends<1> = [View,58,40,44]; ]
 class Simply_RandomView extends WatchUi.View {
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 56; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 58; ]
     <init> {
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 60 15 ]
-        symbol [ Dice %tmp.334 60 30 34 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 62 15 ]
+        symbol [ Dice %tmp.334 62 30 34 ];
         %tmp.334 = getv ? :Dice;
         %tmp.331 = newc %tmp.334 ();
         putv self :main_die %tmp.331;
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 62 15 ]
-        symbol [ Math %tmp.335 62 24 28 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 64 15 ]
+        symbol [ Math %tmp.335 64 24 28 ];
         %tmp.335 = getm $.Toybox.Math;
-        symbol [ rand %tmp.336 62 29 33 ];
+        symbol [ rand %tmp.336 64 29 33 ];
         %tmp.336 = getv function %tmp.335 :rand;
         %tmp.337 = invoke %tmp.335 %tmp.336();
         %tmp.338 = 6;
@@ -656,533 +656,539 @@ class Simply_RandomView extends WatchUi.View {
         %tmp.341 = add %tmp.339 %tmp.340;
         putv self :rand1 %tmp.341;
     }
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 56; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 58; ]
     static
     <init> {
     }
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 60; @position = 15; @symbol_vardef = [main_die,60,15,23]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 62; @position = 15; @symbol_vardef = [main_die,62,15,23]; ]
     public
     var main_die;
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 62; @position = 15; @symbol_vardef = [rand1,62,15,20]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 64; @position = 15; @symbol_vardef = [rand1,64,15,20]; ]
     public
     var rand1;
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 63; @position = 15; @symbol_vardef = [randBool,63,15,23]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 65; @position = 15; @symbol_vardef = [randBool,65,15,23]; ]
     public
     var randBool;
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 64; @position = 15; @symbol_vardef = [randInt,64,15,22]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 66; @position = 15; @symbol_vardef = [randInt,66,15,22]; ]
     public
     var randInt;
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 68; @symbol_functiondef = [initialize,68,13,23]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 70; @symbol_functiondef = [initialize,70,13,23]; ]
     function initialize() as Void {
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_68_26_71_4_start:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 69 8 ]
-        symbol [ View %tmp.2 69 8 12 ];
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_70_26_73_4_start:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 71 8 ]
+        symbol [ View %tmp.2 71 8 12 ];
         %tmp.2 = getv ? :View;
-        symbol [ initialize %tmp.3 69 13 23 ];
+        symbol [ initialize %tmp.3 71 13 23 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_68_26_71_4_stop:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_70_26_73_4_stop:
     }
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 72; @symbol_functiondef = [roll,72,13,17]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 74; @symbol_functiondef = [roll,74,13,17]; ]
     function roll() {
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_72_19_76_4_start:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 73 8 ]
-        symbol [ Math %tmp.1 73 17 21 ];
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_74_19_78_4_start:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 75 8 ]
+        symbol [ Math %tmp.1 75 17 21 ];
         %tmp.1 = getm $.Toybox.Math;
-        symbol [ rand %tmp.2 73 22 26 ];
+        symbol [ rand %tmp.2 75 22 26 ];
         %tmp.2 = getv function %tmp.1 :rand;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         %tmp.4 = 6;
         %tmp.5 = mod %tmp.3 %tmp.4;
         %tmp.6 = 1;
         %tmp.7 = add %tmp.5 %tmp.6;
-        symbol [ rand1 ? 73 8 13 ];
+        symbol [ rand1 ? 75 8 13 ];
         putv self :rand1 %tmp.7;
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 74 8 ]
-        symbol [ Math %tmp.8 74 20 24 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 76 8 ]
+        symbol [ Math %tmp.8 76 20 24 ];
         %tmp.8 = getm $.Toybox.Math;
-        symbol [ rand %tmp.9 74 25 29 ];
+        symbol [ rand %tmp.9 76 25 29 ];
         %tmp.9 = getv function %tmp.8 :rand;
         %tmp.10 = invoke %tmp.8 %tmp.9();
         %tmp.11 = 2;
         %tmp.12 = mod %tmp.10 %tmp.11;
-        symbol [ randBool ? 74 8 16 ];
+        symbol [ randBool ? 76 8 16 ];
         putv self :randBool %tmp.12;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_72_19_76_4_stop:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_74_19_78_4_stop:
     }
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 77; @symbol_functiondef = [onLayout,77,13,21]; @symbol_param<0> = [dc,77,22,24]; @symbol_param<0>_type<0> = [Dc,77,28,30]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 79; @symbol_functiondef = [onLayout,79,13,21]; @symbol_param<0> = [dc,79,22,24]; @symbol_param<0>_type<0> = [Dc,79,28,30]; ]
     function onLayout(dc as Dc) as Void {
     }
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 82; @symbol_functiondef = [onShow,82,13,19]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 84; @symbol_functiondef = [onShow,84,13,19]; ]
     function onShow() as Void {
     }
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 86; @symbol_functiondef = [onUpdate,86,13,21]; @symbol_param<0> = [dc,86,22,24]; @symbol_param<0>_type<0> = [Dc,86,28,30]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 88; @symbol_functiondef = [onUpdate,88,13,21]; @symbol_param<0> = [dc,88,22,24]; @symbol_param<0>_type<0> = [Dc,88,28,30]; ]
     function onUpdate(dc as Dc) as Void {
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_86_40_116_4_start:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 89 4 ]
-        [ "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_86_40_116_4_start" "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_86_40_116_4_stop" ]
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_88_40_118_4_start:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 91 4 ]
+        [ "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_88_40_118_4_start" "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_88_40_118_4_stop" ]
         %screen_height.1 = local;
-        symbol [ screen_height %screen_height.1 89 8 21 ];
+        symbol [ screen_height %screen_height.1 91 8 21 ];
         %tmp.1 = lgetv %dc;
-        symbol [ dc %tmp.1 89 24 26 ];
-        symbol [ getHeight %tmp.2 89 27 36 ];
+        symbol [ dc %tmp.1 91 24 26 ];
+        symbol [ getHeight %tmp.2 91 27 36 ];
         %tmp.2 = getv function %tmp.1 :getHeight;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %screen_height.1 %tmp.3;
-        symbol [ screen_height %screen_height.1 89 8 21 ];
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 90 4 ]
-        [ "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_86_40_116_4_start" "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_86_40_116_4_stop" ]
+        symbol [ screen_height %screen_height.1 91 8 21 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 92 4 ]
+        [ "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_88_40_118_4_start" "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_88_40_118_4_stop" ]
         %screen_width.2 = local;
-        symbol [ screen_width %screen_width.2 90 8 20 ];
+        symbol [ screen_width %screen_width.2 92 8 20 ];
         %tmp.4 = lgetv %dc;
-        symbol [ dc %tmp.4 90 23 25 ];
-        symbol [ getWidth %tmp.5 90 26 34 ];
+        symbol [ dc %tmp.4 92 23 25 ];
+        symbol [ getWidth %tmp.5 92 26 34 ];
         %tmp.5 = getv function %tmp.4 :getWidth;
         %tmp.6 = invoke %tmp.4 %tmp.5();
         lputv %screen_width.2 %tmp.6;
-        symbol [ screen_width %screen_width.2 90 8 20 ];
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 91 4 ]
-        [ "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_86_40_116_4_start" "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_86_40_116_4_stop" ]
+        symbol [ screen_width %screen_width.2 92 8 20 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 93 4 ]
+        [ "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_88_40_118_4_start" "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_88_40_118_4_stop" ]
         %dc_height.3 = local;
-        symbol [ dc_height %dc_height.3 91 8 17 ];
+        symbol [ dc_height %dc_height.3 93 8 17 ];
         %tmp.7 = lgetv %dc;
-        symbol [ dc %tmp.7 91 20 22 ];
-        symbol [ getHeight %tmp.8 91 23 32 ];
+        symbol [ dc %tmp.7 93 20 22 ];
+        symbol [ getHeight %tmp.8 93 23 32 ];
         %tmp.8 = getv function %tmp.7 :getHeight;
         %tmp.9 = invoke %tmp.7 %tmp.8();
         lputv %dc_height.3 %tmp.9;
-        symbol [ dc_height %dc_height.3 91 8 17 ];
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 92 4 ]
-        [ "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_86_40_116_4_start" "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_86_40_116_4_stop" ]
+        symbol [ dc_height %dc_height.3 93 8 17 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 94 4 ]
+        [ "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_88_40_118_4_start" "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_88_40_118_4_stop" ]
         %dc_width.4 = local;
-        symbol [ dc_width %dc_width.4 92 8 16 ];
+        symbol [ dc_width %dc_width.4 94 8 16 ];
         %tmp.10 = lgetv %dc;
-        symbol [ dc %tmp.10 92 19 21 ];
-        symbol [ getWidth %tmp.11 92 22 30 ];
+        symbol [ dc %tmp.10 94 19 21 ];
+        symbol [ getWidth %tmp.11 94 22 30 ];
         %tmp.11 = getv function %tmp.10 :getWidth;
         %tmp.12 = invoke %tmp.10 %tmp.11();
         lputv %dc_width.4 %tmp.12;
-        symbol [ dc_width %dc_width.4 92 8 16 ];
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 93 4 ]
-        [ "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_86_40_116_4_start" "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_86_40_116_4_stop" ]
+        symbol [ dc_width %dc_width.4 94 8 16 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 95 4 ]
+        [ "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_88_40_118_4_start" "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_88_40_118_4_stop" ]
         %range_min.5 = local;
-        symbol [ range_min %range_min.5 93 8 17 ];
-        symbol [ Properties %tmp.13 93 20 30 ];
+        symbol [ range_min %range_min.5 95 8 17 ];
+        symbol [ Properties %tmp.13 95 20 30 ];
         %tmp.13 = getm $.Toybox.Application.Properties;
-        symbol [ getValue %tmp.14 93 31 39 ];
+        symbol [ getValue %tmp.14 95 31 39 ];
         %tmp.14 = getv function %tmp.13 :getValue;
         %tmp.15 = "RangeMin";
         %tmp.16 = invoke %tmp.13 %tmp.14(%tmp.15);
         lputv %range_min.5 %tmp.16;
-        symbol [ range_min %range_min.5 93 8 17 ];
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 94 4 ]
-        [ "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_86_40_116_4_start" "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_86_40_116_4_stop" ]
+        symbol [ range_min %range_min.5 95 8 17 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 96 4 ]
+        [ "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_88_40_118_4_start" "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_88_40_118_4_stop" ]
         %range_max.6 = local;
-        symbol [ range_max %range_max.6 94 8 17 ];
-        symbol [ Properties %tmp.17 94 20 30 ];
+        symbol [ range_max %range_max.6 96 8 17 ];
+        symbol [ Properties %tmp.17 96 20 30 ];
         %tmp.17 = getm $.Toybox.Application.Properties;
-        symbol [ getValue %tmp.18 94 31 39 ];
+        symbol [ getValue %tmp.18 96 31 39 ];
         %tmp.18 = getv function %tmp.17 :getValue;
         %tmp.19 = "RangeMax";
         %tmp.20 = invoke %tmp.17 %tmp.18(%tmp.19);
         lputv %range_max.6 %tmp.20;
-        symbol [ range_max %range_max.6 94 8 17 ];
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 95 4 ]
-        [ "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_86_40_116_4_start" "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_86_40_116_4_stop" ]
+        symbol [ range_max %range_max.6 96 8 17 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 97 4 ]
+        [ "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_88_40_118_4_start" "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_88_40_118_4_stop" ]
         %range_diff.7 = local;
-        symbol [ range_diff %range_diff.7 95 8 18 ];
+        symbol [ range_diff %range_diff.7 97 8 18 ];
         %tmp.21 = lgetv %range_max.6;
-        symbol [ range_max %tmp.21 95 21 30 ];
+        symbol [ range_max %tmp.21 97 21 30 ];
         %tmp.22 = lgetv %range_min.5;
-        symbol [ range_min %tmp.22 95 33 42 ];
+        symbol [ range_min %tmp.22 97 33 42 ];
         %tmp.23 = sub %tmp.21 %tmp.22;
         lputv %range_diff.7 %tmp.23;
-        symbol [ range_diff %range_diff.7 95 8 18 ];
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 96 4 ]
-        symbol [ Math %tmp.24 96 15 19 ];
+        symbol [ range_diff %range_diff.7 97 8 18 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 98 4 ]
+        symbol [ Math %tmp.24 98 15 19 ];
         %tmp.24 = getm $.Toybox.Math;
-        symbol [ rand %tmp.25 96 20 24 ];
+        symbol [ rand %tmp.25 98 20 24 ];
         %tmp.25 = getv function %tmp.24 :rand;
         %tmp.26 = invoke %tmp.24 %tmp.25();
         %tmp.27 = 2;
         %tmp.28 = mod %tmp.26 %tmp.27;
-        symbol [ randBool ? 96 4 12 ];
+        symbol [ randBool ? 98 4 12 ];
         putv self :randBool %tmp.28;
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 98 8 ]
-        symbol [ View %tmp.30 98 8 12 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 100 8 ]
+        symbol [ View %tmp.30 100 8 12 ];
         %tmp.30 = getv ? :View;
-        symbol [ onUpdate %tmp.31 98 13 21 ];
+        symbol [ onUpdate %tmp.31 100 13 21 ];
         %tmp.31 = getv function %tmp.30 :onUpdate;
         %tmp.32 = lgetv %dc;
-        symbol [ dc %tmp.32 98 22 24 ];
+        symbol [ dc %tmp.32 100 22 24 ];
         invoke %tmp.30 %tmp.31(%tmp.32);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 100 8 ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 102 8 ]
         %tmp.33 = lgetv %dc;
-        symbol [ dc %tmp.33 100 8 10 ];
-        symbol [ setColor %tmp.34 100 11 19 ];
+        symbol [ dc %tmp.33 102 8 10 ];
+        symbol [ setColor %tmp.34 102 11 19 ];
         %tmp.34 = getv function %tmp.33 :setColor;
-        symbol [ Graphics %tmp.35 100 20 28 ];
+        symbol [ Graphics %tmp.35 102 20 28 ];
         %tmp.35 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.36 100 29 40 ];
+        symbol [ COLOR_WHITE %tmp.36 102 29 40 ];
         %tmp.36 = getv %tmp.35 :COLOR_WHITE;
-        symbol [ Graphics %tmp.37 100 41 49 ];
+        symbol [ Graphics %tmp.37 102 41 49 ];
         %tmp.37 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLACK %tmp.38 100 50 61 ];
+        symbol [ COLOR_BLACK %tmp.38 102 50 61 ];
         %tmp.38 = getv %tmp.37 :COLOR_BLACK;
         invoke %tmp.33 %tmp.34(%tmp.36, %tmp.38);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 102 8 ]
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_102_8_107_8_if_stmt:
-        symbol [ randBool %tmp.40 102 12 20 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 104 8 ]
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_104_8_109_8_if_stmt:
+        symbol [ randBool %tmp.40 104 12 20 ];
         %tmp.40 = getv ? :randBool;
         %tmp.41 = 0;
         %tmp.42 = eq %tmp.40 %tmp.41;
-        bf %tmp.42 @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_102_8_107_8_if_false;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_102_8_107_8_if_true:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_102_26_104_8_start:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 103 12 ]
+        bf %tmp.42 @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_104_8_109_8_if_false;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_104_8_109_8_if_true:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_104_26_106_8_start:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 105 12 ]
         %tmp.43 = lgetv %dc;
-        symbol [ dc %tmp.43 103 12 14 ];
-        symbol [ drawText %tmp.44 103 15 23 ];
+        symbol [ dc %tmp.43 105 12 14 ];
+        symbol [ drawText %tmp.44 105 15 23 ];
         %tmp.44 = getv function %tmp.43 :drawText;
         %tmp.45 = lgetv %screen_width.2;
-        symbol [ screen_width %tmp.45 103 24 36 ];
+        symbol [ screen_width %tmp.45 105 24 36 ];
         %tmp.46 = 2;
         %tmp.47 = div %tmp.45 %tmp.46;
         %tmp.48 = lgetv %screen_height.1;
-        symbol [ screen_height %tmp.48 103 39 52 ];
+        symbol [ screen_height %tmp.48 105 39 52 ];
         %tmp.49 = 16;
         %tmp.50 = div %tmp.48 %tmp.49;
-        symbol [ Graphics %tmp.51 103 56 64 ];
+        symbol [ Graphics %tmp.51 105 56 64 ];
         %tmp.51 = getm $.Toybox.Graphics;
-        symbol [ FONT_SMALL %tmp.52 103 65 75 ];
+        symbol [ FONT_SMALL %tmp.52 105 65 75 ];
         %tmp.52 = getv %tmp.51 :FONT_SMALL;
         %tmp.53 = "No";
-        symbol [ Graphics %tmp.54 103 81 89 ];
+        symbol [ Graphics %tmp.54 105 81 89 ];
         %tmp.54 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.55 103 90 109 ];
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.55 105 90 109 ];
         %tmp.55 = getv %tmp.54 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.43 %tmp.44(%tmp.47, %tmp.50, %tmp.52, %tmp.53, %tmp.55);
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_102_26_104_8_stop:
-        goto @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_102_8_107_8_if_end;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_102_8_107_8_if_false:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 105 13 ]
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_105_13_107_8_if_stmt:
-        symbol [ randBool %tmp.57 105 16 24 ];
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_104_26_106_8_stop:
+        goto @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_104_8_109_8_if_end;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_104_8_109_8_if_false:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 107 13 ]
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_107_13_109_8_if_stmt:
+        symbol [ randBool %tmp.57 107 16 24 ];
         %tmp.57 = getv ? :randBool;
         %tmp.58 = 1;
         %tmp.59 = eq %tmp.57 %tmp.58;
-        bf %tmp.59 @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_105_13_107_8_if_end;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_105_13_107_8_if_true:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_105_30_107_8_start:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 106 12 ]
+        bf %tmp.59 @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_107_13_109_8_if_end;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_107_13_109_8_if_true:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_107_30_109_8_start:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 108 12 ]
         %tmp.60 = lgetv %dc;
-        symbol [ dc %tmp.60 106 12 14 ];
-        symbol [ drawText %tmp.61 106 15 23 ];
+        symbol [ dc %tmp.60 108 12 14 ];
+        symbol [ drawText %tmp.61 108 15 23 ];
         %tmp.61 = getv function %tmp.60 :drawText;
         %tmp.62 = lgetv %screen_width.2;
-        symbol [ screen_width %tmp.62 106 24 36 ];
+        symbol [ screen_width %tmp.62 108 24 36 ];
         %tmp.63 = 2;
         %tmp.64 = div %tmp.62 %tmp.63;
         %tmp.65 = lgetv %screen_height.1;
-        symbol [ screen_height %tmp.65 106 39 52 ];
+        symbol [ screen_height %tmp.65 108 39 52 ];
         %tmp.66 = 16;
         %tmp.67 = div %tmp.65 %tmp.66;
-        symbol [ Graphics %tmp.68 106 56 64 ];
+        symbol [ Graphics %tmp.68 108 56 64 ];
         %tmp.68 = getm $.Toybox.Graphics;
-        symbol [ FONT_TINY %tmp.69 106 65 74 ];
+        symbol [ FONT_TINY %tmp.69 108 65 74 ];
         %tmp.69 = getv %tmp.68 :FONT_TINY;
         %tmp.70 = "Yes";
-        symbol [ Graphics %tmp.71 106 81 89 ];
+        symbol [ Graphics %tmp.71 108 81 89 ];
         %tmp.71 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.72 106 90 109 ];
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.72 108 90 109 ];
         %tmp.72 = getv %tmp.71 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.60 %tmp.61(%tmp.64, %tmp.67, %tmp.69, %tmp.70, %tmp.72);
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_105_30_107_8_stop:
-        goto @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_105_13_107_8_if_end;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_105_13_107_8_if_end:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_102_8_107_8_if_end:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 109 8 ]
-        symbol [ main_die %tmp.74 109 8 16 ];
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_107_30_109_8_stop:
+        goto @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_107_13_109_8_if_end;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_107_13_109_8_if_end:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_104_8_109_8_if_end:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 111 8 ]
+        symbol [ main_die %tmp.74 111 8 16 ];
         %tmp.74 = getv ? :main_die;
-        symbol [ draw %tmp.75 109 17 21 ];
+        symbol [ draw %tmp.75 111 17 21 ];
         %tmp.75 = getv function %tmp.74 :draw;
         %tmp.76 = lgetv %dc;
-        symbol [ dc %tmp.76 109 22 24 ];
+        symbol [ dc %tmp.76 111 22 24 ];
         %tmp.77 = lgetv %screen_width.2;
-        symbol [ screen_width %tmp.77 109 25 37 ];
+        symbol [ screen_width %tmp.77 111 25 37 ];
         %tmp.78 = 3;
         %tmp.79 = div %tmp.77 %tmp.78;
         %tmp.80 = lgetv %screen_height.1;
-        symbol [ screen_height %tmp.80 109 40 53 ];
+        symbol [ screen_height %tmp.80 111 40 53 ];
         %tmp.81 = 2;
         %tmp.82 = div %tmp.80 %tmp.81;
         %tmp.83 = lgetv %screen_height.1;
-        symbol [ screen_height %tmp.83 109 56 69 ];
+        symbol [ screen_height %tmp.83 111 56 69 ];
         %tmp.84 = 4;
         %tmp.85 = div %tmp.83 %tmp.84;
-        symbol [ Math %tmp.86 109 74 78 ];
+        symbol [ Math %tmp.86 111 74 78 ];
         %tmp.86 = getm $.Toybox.Math;
-        symbol [ rand %tmp.87 109 79 83 ];
+        symbol [ rand %tmp.87 111 79 83 ];
         %tmp.87 = getv function %tmp.86 :rand;
         %tmp.88 = invoke %tmp.86 %tmp.87();
         %tmp.89 = 6;
         %tmp.90 = mod %tmp.88 %tmp.89;
         %tmp.91 = 1;
         %tmp.92 = add %tmp.90 %tmp.91;
-        symbol [ toNumber %tmp.93 109 92 100 ];
+        symbol [ toNumber %tmp.93 111 92 100 ];
         %tmp.93 = getv function %tmp.92 :toNumber;
         %tmp.94 = invoke %tmp.92 %tmp.93();
         invoke %tmp.74 %tmp.75(%tmp.76, %tmp.79, %tmp.82, %tmp.85, %tmp.94);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 110 8 ]
-        symbol [ main_die %tmp.96 110 8 16 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 112 8 ]
+        symbol [ main_die %tmp.96 112 8 16 ];
         %tmp.96 = getv ? :main_die;
-        symbol [ draw %tmp.97 110 17 21 ];
+        symbol [ draw %tmp.97 112 17 21 ];
         %tmp.97 = getv function %tmp.96 :draw;
         %tmp.98 = lgetv %dc;
-        symbol [ dc %tmp.98 110 22 24 ];
+        symbol [ dc %tmp.98 112 22 24 ];
         %tmp.99 = lgetv %screen_width.2;
-        symbol [ screen_width %tmp.99 110 25 37 ];
+        symbol [ screen_width %tmp.99 112 25 37 ];
         %tmp.100 = 2;
         %tmp.101 = mul %tmp.99 %tmp.100;
         %tmp.102 = 3;
         %tmp.103 = div %tmp.101 %tmp.102;
         %tmp.104 = lgetv %screen_height.1;
-        symbol [ screen_height %tmp.104 110 42 55 ];
+        symbol [ screen_height %tmp.104 112 42 55 ];
         %tmp.105 = 2;
         %tmp.106 = div %tmp.104 %tmp.105;
         %tmp.107 = lgetv %screen_height.1;
-        symbol [ screen_height %tmp.107 110 58 71 ];
+        symbol [ screen_height %tmp.107 112 58 71 ];
         %tmp.108 = 4;
         %tmp.109 = div %tmp.107 %tmp.108;
-        symbol [ Math %tmp.110 110 76 80 ];
+        symbol [ Math %tmp.110 112 76 80 ];
         %tmp.110 = getm $.Toybox.Math;
-        symbol [ rand %tmp.111 110 81 85 ];
+        symbol [ rand %tmp.111 112 81 85 ];
         %tmp.111 = getv function %tmp.110 :rand;
         %tmp.112 = invoke %tmp.110 %tmp.111();
         %tmp.113 = 6;
         %tmp.114 = mod %tmp.112 %tmp.113;
         %tmp.115 = 1;
         %tmp.116 = add %tmp.114 %tmp.115;
-        symbol [ toNumber %tmp.117 110 94 102 ];
+        symbol [ toNumber %tmp.117 112 94 102 ];
         %tmp.117 = getv function %tmp.116 :toNumber;
         %tmp.118 = invoke %tmp.116 %tmp.117();
         invoke %tmp.96 %tmp.97(%tmp.98, %tmp.103, %tmp.106, %tmp.109, %tmp.118);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 112 8 ]
-        [ "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_86_40_116_4_start" "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_86_40_116_4_stop" ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 114 8 ]
+        [ "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_88_40_118_4_start" "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_88_40_118_4_stop" ]
         %randInt.8 = local;
-        symbol [ randInt %randInt.8 112 12 19 ];
-        symbol [ Math %tmp.119 112 23 27 ];
+        symbol [ randInt %randInt.8 114 12 19 ];
+        symbol [ Math %tmp.119 114 23 27 ];
         %tmp.119 = getm $.Toybox.Math;
-        symbol [ rand %tmp.120 112 28 32 ];
+        symbol [ rand %tmp.120 114 28 32 ];
         %tmp.120 = getv function %tmp.119 :rand;
         %tmp.121 = invoke %tmp.119 %tmp.120();
         %tmp.122 = lgetv %range_diff.7;
-        symbol [ range_diff %tmp.122 112 38 48 ];
+        symbol [ range_diff %tmp.122 114 38 48 ];
         %tmp.123 = 1;
         %tmp.124 = add %tmp.122 %tmp.123;
         %tmp.125 = mod %tmp.121 %tmp.124;
         %tmp.126 = lgetv %range_min.5;
-        symbol [ range_min %tmp.126 112 55 64 ];
+        symbol [ range_min %tmp.126 114 55 64 ];
         %tmp.127 = add %tmp.125 %tmp.126;
         lputv %randInt.8 %tmp.127;
-        symbol [ randInt %randInt.8 112 12 19 ];
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 113 8 ]
+        symbol [ randInt %randInt.8 114 12 19 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 115 8 ]
         %tmp.128 = lgetv %dc;
-        symbol [ dc %tmp.128 113 8 10 ];
-        symbol [ setColor %tmp.129 113 11 19 ];
+        symbol [ dc %tmp.128 115 8 10 ];
+        symbol [ setColor %tmp.129 115 11 19 ];
         %tmp.129 = getv function %tmp.128 :setColor;
-        symbol [ Graphics %tmp.130 113 20 28 ];
+        symbol [ Graphics %tmp.130 115 20 28 ];
         %tmp.130 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.131 113 29 40 ];
+        symbol [ COLOR_WHITE %tmp.131 115 29 40 ];
         %tmp.131 = getv %tmp.130 :COLOR_WHITE;
-        symbol [ Graphics %tmp.132 113 41 49 ];
+        symbol [ Graphics %tmp.132 115 41 49 ];
         %tmp.132 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.133 113 50 67 ];
+        symbol [ COLOR_TRANSPARENT %tmp.133 115 50 67 ];
         %tmp.133 = getv %tmp.132 :COLOR_TRANSPARENT;
         invoke %tmp.128 %tmp.129(%tmp.131, %tmp.133);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 115 8 ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 117 8 ]
         %tmp.134 = lgetv %dc;
-        symbol [ dc %tmp.134 115 8 10 ];
-        symbol [ drawText %tmp.135 115 11 19 ];
+        symbol [ dc %tmp.134 117 8 10 ];
+        symbol [ drawText %tmp.135 117 11 19 ];
         %tmp.135 = getv function %tmp.134 :drawText;
         %tmp.136 = lgetv %dc_width.4;
-        symbol [ dc_width %tmp.136 115 20 28 ];
+        symbol [ dc_width %tmp.136 117 20 28 ];
         %tmp.137 = 2;
         %tmp.138 = div %tmp.136 %tmp.137;
         %tmp.139 = lgetv %dc_height.3;
-        symbol [ dc_height %tmp.139 115 31 40 ];
+        symbol [ dc_height %tmp.139 117 31 40 ];
         %tmp.140 = 7;
         %tmp.141 = mul %tmp.139 %tmp.140;
         %tmp.142 = 8;
         %tmp.143 = div %tmp.141 %tmp.142;
-        symbol [ Graphics %tmp.144 115 45 53 ];
+        symbol [ Graphics %tmp.144 117 45 53 ];
         %tmp.144 = getm $.Toybox.Graphics;
-        symbol [ FONT_LARGE %tmp.145 115 54 64 ];
+        symbol [ FONT_LARGE %tmp.145 117 54 64 ];
         %tmp.145 = getv %tmp.144 :FONT_LARGE;
         %tmp.146 = lgetv %randInt.8;
-        symbol [ randInt %tmp.146 115 65 72 ];
-        symbol [ Graphics %tmp.147 115 74 82 ];
+        symbol [ randInt %tmp.146 117 65 72 ];
+        symbol [ Graphics %tmp.147 117 74 82 ];
         %tmp.147 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.148 115 83 102 ];
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.148 117 83 102 ];
         %tmp.148 = getv %tmp.147 :TEXT_JUSTIFY_CENTER;
-        symbol [ Graphics %tmp.149 115 105 113 ];
+        symbol [ Graphics %tmp.149 117 105 113 ];
         %tmp.149 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_VCENTER %tmp.150 115 114 134 ];
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.150 117 114 134 ];
         %tmp.150 = getv %tmp.149 :TEXT_JUSTIFY_VCENTER;
         %tmp.151 = bitor %tmp.148 %tmp.150;
         invoke %tmp.134 %tmp.135(%tmp.138, %tmp.143, %tmp.145, %tmp.146, %tmp.151);
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_86_40_116_4_stop:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_88_40_118_4_stop:
     }
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 120; @symbol_functiondef = [onHide,120,13,19]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 122; @symbol_functiondef = [onHide,122,13,19]; ]
     function onHide() as Void {
     }
 }
-[ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 126; glance = true; @symbol_classdef = [Simply_RandomGlance,126,6,25]; @symbol_extends<0> = [WatchUi,126,34,41]; @symbol_extends<1> = [GlanceView,126,42,52]; ]
+[ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 128; glance = true; @symbol_classdef = [Simply_RandomGlance,128,6,25]; @symbol_extends<0> = [WatchUi,128,34,41]; @symbol_extends<1> = [GlanceView,128,42,52]; ]
 class Simply_RandomGlance extends WatchUi.GlanceView {
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 126; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 128; ]
     <init> {
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 127 15 ]
-        symbol [ Dice %tmp.4 127 32 36 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 129 15 ]
+        symbol [ Dice %tmp.4 129 32 36 ];
         %tmp.4 = getv ? :Dice;
         %tmp.1 = newc %tmp.4 ();
         putv self :glance_die %tmp.1;
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 128 15 ]
-        symbol [ Properties %tmp.5 128 29 39 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 130 15 ]
+        symbol [ Properties %tmp.5 130 29 39 ];
         %tmp.5 = getm $.Toybox.Application.Properties;
-        symbol [ getValue %tmp.6 128 40 48 ];
+        symbol [ getValue %tmp.6 130 40 48 ];
         %tmp.6 = getv function %tmp.5 :getValue;
         %tmp.7 = "GlanceMode";
         %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
         putv self :glance_mode %tmp.8;
     }
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 126; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 128; ]
     static
     <init> {
     }
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 127; @position = 15; @symbol_vardef = [glance_die,127,15,25]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 129; @position = 15; @symbol_vardef = [glance_die,129,15,25]; ]
     public
     var glance_die;
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 128; @position = 15; @symbol_vardef = [glance_mode,128,15,26]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 130; @position = 15; @symbol_vardef = [glance_mode,130,15,26]; ]
     public
     var glance_mode;
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 130; @symbol_functiondef = [initialize,130,13,23]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 132; @position = 15; @symbol_vardef = [rpsInt,132,15,21]; ]
+    public
+    var rpsInt;
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 133; @position = 15; @symbol_vardef = [rpsResult,133,15,24]; ]
+    public
+    var rpsResult;
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 135; @symbol_functiondef = [initialize,135,13,23]; ]
     function initialize() as Void {
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_130_25_132_4_start:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 131 8 ]
-        symbol [ GlanceView %tmp.2 131 8 18 ];
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_135_25_137_4_start:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 136 8 ]
+        symbol [ GlanceView %tmp.2 136 8 18 ];
         %tmp.2 = getv ? :GlanceView;
-        symbol [ initialize %tmp.3 131 19 29 ];
+        symbol [ initialize %tmp.3 136 19 29 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_130_25_132_4_stop:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_135_25_137_4_stop:
     }
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 134; @symbol_functiondef = [onUpdate,134,13,21]; @symbol_param<0> = [dc,134,22,24]; @symbol_param<0>_type<0> = [Dc,134,28,30]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 139; @symbol_functiondef = [onUpdate,139,13,21]; @symbol_param<0> = [dc,139,22,24]; @symbol_param<0>_type<0> = [Dc,139,28,30]; ]
     function onUpdate(dc as Dc) as Void {
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_134_39_174_4_start:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 136 8 ]
-        [ "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_134_39_174_4_start" "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_134_39_174_4_stop" ]
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_139_39_186_4_start:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 141 8 ]
+        [ "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_139_39_186_4_start" "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_139_39_186_4_stop" ]
         %dc_height.1 = local;
-        symbol [ dc_height %dc_height.1 136 12 21 ];
+        symbol [ dc_height %dc_height.1 141 12 21 ];
         %tmp.1 = lgetv %dc;
-        symbol [ dc %tmp.1 136 24 26 ];
-        symbol [ getHeight %tmp.2 136 27 36 ];
+        symbol [ dc %tmp.1 141 24 26 ];
+        symbol [ getHeight %tmp.2 141 27 36 ];
         %tmp.2 = getv function %tmp.1 :getHeight;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %dc_height.1 %tmp.3;
-        symbol [ dc_height %dc_height.1 136 12 21 ];
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 137 8 ]
-        [ "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_134_39_174_4_start" "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_134_39_174_4_stop" ]
+        symbol [ dc_height %dc_height.1 141 12 21 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 142 8 ]
+        [ "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_139_39_186_4_start" "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_139_39_186_4_stop" ]
         %dc_width.2 = local;
-        symbol [ dc_width %dc_width.2 137 12 20 ];
+        symbol [ dc_width %dc_width.2 142 12 20 ];
         %tmp.4 = lgetv %dc;
-        symbol [ dc %tmp.4 137 23 25 ];
-        symbol [ getWidth %tmp.5 137 26 34 ];
+        symbol [ dc %tmp.4 142 23 25 ];
+        symbol [ getWidth %tmp.5 142 26 34 ];
         %tmp.5 = getv function %tmp.4 :getWidth;
         %tmp.6 = invoke %tmp.4 %tmp.5();
         lputv %dc_width.2 %tmp.6;
-        symbol [ dc_width %dc_width.2 137 12 20 ];
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 138 8 ]
-        [ "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_134_39_174_4_start" "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_134_39_174_4_stop" ]
+        symbol [ dc_width %dc_width.2 142 12 20 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 143 8 ]
+        [ "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_139_39_186_4_start" "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_139_39_186_4_stop" ]
         %range_min.3 = local;
-        symbol [ range_min %range_min.3 138 12 21 ];
-        symbol [ Properties %tmp.7 138 24 34 ];
+        symbol [ range_min %range_min.3 143 12 21 ];
+        symbol [ Properties %tmp.7 143 24 34 ];
         %tmp.7 = getm $.Toybox.Application.Properties;
-        symbol [ getValue %tmp.8 138 35 43 ];
+        symbol [ getValue %tmp.8 143 35 43 ];
         %tmp.8 = getv function %tmp.7 :getValue;
         %tmp.9 = "RangeMin";
         %tmp.10 = invoke %tmp.7 %tmp.8(%tmp.9);
         lputv %range_min.3 %tmp.10;
-        symbol [ range_min %range_min.3 138 12 21 ];
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 139 8 ]
-        [ "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_134_39_174_4_start" "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_134_39_174_4_stop" ]
+        symbol [ range_min %range_min.3 143 12 21 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 144 8 ]
+        [ "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_139_39_186_4_start" "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_139_39_186_4_stop" ]
         %range_max.4 = local;
-        symbol [ range_max %range_max.4 139 12 21 ];
-        symbol [ Properties %tmp.11 139 24 34 ];
+        symbol [ range_max %range_max.4 144 12 21 ];
+        symbol [ Properties %tmp.11 144 24 34 ];
         %tmp.11 = getm $.Toybox.Application.Properties;
-        symbol [ getValue %tmp.12 139 35 43 ];
+        symbol [ getValue %tmp.12 144 35 43 ];
         %tmp.12 = getv function %tmp.11 :getValue;
         %tmp.13 = "RangeMax";
         %tmp.14 = invoke %tmp.11 %tmp.12(%tmp.13);
         lputv %range_max.4 %tmp.14;
-        symbol [ range_max %range_max.4 139 12 21 ];
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 140 8 ]
-        [ "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_134_39_174_4_start" "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_134_39_174_4_stop" ]
+        symbol [ range_max %range_max.4 144 12 21 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 145 8 ]
+        [ "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_139_39_186_4_start" "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_139_39_186_4_stop" ]
         %range_diff.5 = local;
-        symbol [ range_diff %range_diff.5 140 12 22 ];
+        symbol [ range_diff %range_diff.5 145 12 22 ];
         %tmp.15 = lgetv %range_max.4;
-        symbol [ range_max %tmp.15 140 25 34 ];
+        symbol [ range_max %tmp.15 145 25 34 ];
         %tmp.16 = lgetv %range_min.3;
-        symbol [ range_min %tmp.16 140 37 46 ];
+        symbol [ range_min %tmp.16 145 37 46 ];
         %tmp.17 = sub %tmp.15 %tmp.16;
         lputv %range_diff.5 %tmp.17;
-        symbol [ range_diff %range_diff.5 140 12 22 ];
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 142 8 ]
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_142_8_172_8_if_stmt:
-        symbol [ glance_mode %tmp.19 142 12 23 ];
+        symbol [ range_diff %range_diff.5 145 12 22 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 147 8 ]
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_147_8_184_8_if_stmt:
+        symbol [ glance_mode %tmp.19 147 12 23 ];
         %tmp.19 = getv ? :glance_mode;
         %tmp.20 = 0;
         %tmp.21 = eq %tmp.19 %tmp.20;
-        bf %tmp.21 @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_142_8_172_8_if_false;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_142_8_172_8_if_true:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_142_29_146_8_start:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 143 8 ]
+        bf %tmp.21 @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_147_8_184_8_if_false;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_147_8_184_8_if_true:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_147_29_151_8_start:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 148 8 ]
         %tmp.22 = lgetv %dc;
-        symbol [ dc %tmp.22 143 8 10 ];
-        symbol [ setColor %tmp.23 143 11 19 ];
+        symbol [ dc %tmp.22 148 8 10 ];
+        symbol [ setColor %tmp.23 148 11 19 ];
         %tmp.23 = getv function %tmp.22 :setColor;
-        symbol [ Graphics %tmp.24 143 20 28 ];
+        symbol [ Graphics %tmp.24 148 20 28 ];
         %tmp.24 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.25 143 29 40 ];
+        symbol [ COLOR_WHITE %tmp.25 148 29 40 ];
         %tmp.25 = getv %tmp.24 :COLOR_WHITE;
-        symbol [ Graphics %tmp.26 143 41 49 ];
+        symbol [ Graphics %tmp.26 148 41 49 ];
         %tmp.26 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.27 143 50 67 ];
+        symbol [ COLOR_TRANSPARENT %tmp.27 148 50 67 ];
         %tmp.27 = getv %tmp.26 :COLOR_TRANSPARENT;
         invoke %tmp.22 %tmp.23(%tmp.25, %tmp.27);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 144 8 ]
-        symbol [ glance_die %tmp.29 144 8 18 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 149 8 ]
+        symbol [ glance_die %tmp.29 149 8 18 ];
         %tmp.29 = getv ? :glance_die;
-        symbol [ draw %tmp.30 144 19 23 ];
+        symbol [ draw %tmp.30 149 19 23 ];
         %tmp.30 = getv function %tmp.29 :draw;
         %tmp.31 = lgetv %dc;
-        symbol [ dc %tmp.31 144 24 26 ];
+        symbol [ dc %tmp.31 149 24 26 ];
         %tmp.32 = lgetv %dc_width.2;
-        symbol [ dc_width %tmp.32 144 27 35 ];
+        symbol [ dc_width %tmp.32 149 27 35 ];
         %tmp.33 = 3;
         %tmp.34 = mul %tmp.32 %tmp.33;
         %tmp.35 = 4;
         %tmp.36 = div %tmp.34 %tmp.35;
         %tmp.37 = lgetv %dc_height.1;
-        symbol [ dc_height %tmp.37 144 40 49 ];
+        symbol [ dc_height %tmp.37 149 40 49 ];
         %tmp.38 = 2;
         %tmp.39 = div %tmp.37 %tmp.38;
         %tmp.40 = lgetv %dc_height.1;
-        symbol [ dc_height %tmp.40 144 52 61 ];
+        symbol [ dc_height %tmp.40 149 52 61 ];
         %tmp.41 = 0.75;
         %tmp.42 = mul %tmp.40 %tmp.41;
-        symbol [ Math %tmp.43 144 68 72 ];
+        symbol [ Math %tmp.43 149 68 72 ];
         %tmp.43 = getm $.Toybox.Math;
-        symbol [ rand %tmp.44 144 73 77 ];
+        symbol [ rand %tmp.44 149 73 77 ];
         %tmp.44 = getv function %tmp.43 :rand;
         %tmp.45 = invoke %tmp.43 %tmp.44();
         %tmp.46 = 6;
@@ -1190,28 +1196,28 @@ _home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_142_29_1
         %tmp.48 = 1;
         %tmp.49 = add %tmp.47 %tmp.48;
         invoke %tmp.29 %tmp.30(%tmp.31, %tmp.36, %tmp.39, %tmp.42, %tmp.49);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 145 8 ]
-        symbol [ glance_die %tmp.51 145 8 18 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 150 8 ]
+        symbol [ glance_die %tmp.51 150 8 18 ];
         %tmp.51 = getv ? :glance_die;
-        symbol [ draw %tmp.52 145 19 23 ];
+        symbol [ draw %tmp.52 150 19 23 ];
         %tmp.52 = getv function %tmp.51 :draw;
         %tmp.53 = lgetv %dc;
-        symbol [ dc %tmp.53 145 24 26 ];
+        symbol [ dc %tmp.53 150 24 26 ];
         %tmp.54 = lgetv %dc_width.2;
-        symbol [ dc_width %tmp.54 145 27 35 ];
+        symbol [ dc_width %tmp.54 150 27 35 ];
         %tmp.55 = 4;
         %tmp.56 = div %tmp.54 %tmp.55;
         %tmp.57 = lgetv %dc_height.1;
-        symbol [ dc_height %tmp.57 145 38 47 ];
+        symbol [ dc_height %tmp.57 150 38 47 ];
         %tmp.58 = 2;
         %tmp.59 = div %tmp.57 %tmp.58;
         %tmp.60 = lgetv %dc_height.1;
-        symbol [ dc_height %tmp.60 145 50 59 ];
+        symbol [ dc_height %tmp.60 150 50 59 ];
         %tmp.61 = 0.75;
         %tmp.62 = mul %tmp.60 %tmp.61;
-        symbol [ Math %tmp.63 145 66 70 ];
+        symbol [ Math %tmp.63 150 66 70 ];
         %tmp.63 = getm $.Toybox.Math;
-        symbol [ rand %tmp.64 145 71 75 ];
+        symbol [ rand %tmp.64 150 71 75 ];
         %tmp.64 = getv function %tmp.63 :rand;
         %tmp.65 = invoke %tmp.63 %tmp.64();
         %tmp.66 = 6;
@@ -1219,242 +1225,340 @@ _home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_142_29_1
         %tmp.68 = 1;
         %tmp.69 = add %tmp.67 %tmp.68;
         invoke %tmp.51 %tmp.52(%tmp.53, %tmp.56, %tmp.59, %tmp.62, %tmp.69);
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_142_29_146_8_stop:
-        goto @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_142_8_172_8_if_end;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_142_8_172_8_if_false:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 148 13 ]
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_148_13_172_8_if_stmt:
-        symbol [ glance_mode %tmp.71 148 16 27 ];
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_147_29_151_8_stop:
+        goto @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_147_8_184_8_if_end;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_147_8_184_8_if_false:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 153 13 ]
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_153_13_184_8_if_stmt:
+        symbol [ glance_mode %tmp.71 153 16 27 ];
         %tmp.71 = getv ? :glance_mode;
         %tmp.72 = 1;
         %tmp.73 = eq %tmp.71 %tmp.72;
-        bf %tmp.73 @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_148_13_172_8_if_false;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_148_13_172_8_if_true:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_148_33_153_8_start:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 149 8 ]
-        [ "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_148_33_153_8_start" "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_148_33_153_8_stop" ]
+        bf %tmp.73 @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_153_13_184_8_if_false;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_153_13_184_8_if_true:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_153_33_158_8_start:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 154 8 ]
+        [ "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_153_33_158_8_start" "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_153_33_158_8_stop" ]
         %randInt.6 = local;
-        symbol [ randInt %randInt.6 149 12 19 ];
-        symbol [ Math %tmp.74 149 23 27 ];
+        symbol [ randInt %randInt.6 154 12 19 ];
+        symbol [ Math %tmp.74 154 23 27 ];
         %tmp.74 = getm $.Toybox.Math;
-        symbol [ rand %tmp.75 149 28 32 ];
+        symbol [ rand %tmp.75 154 28 32 ];
         %tmp.75 = getv function %tmp.74 :rand;
         %tmp.76 = invoke %tmp.74 %tmp.75();
         %tmp.77 = lgetv %range_diff.5;
-        symbol [ range_diff %tmp.77 149 38 48 ];
+        symbol [ range_diff %tmp.77 154 38 48 ];
         %tmp.78 = 1;
         %tmp.79 = add %tmp.77 %tmp.78;
         %tmp.80 = mod %tmp.76 %tmp.79;
         %tmp.81 = lgetv %range_min.3;
-        symbol [ range_min %tmp.81 149 55 64 ];
+        symbol [ range_min %tmp.81 154 55 64 ];
         %tmp.82 = add %tmp.80 %tmp.81;
         lputv %randInt.6 %tmp.82;
-        symbol [ randInt %randInt.6 149 12 19 ];
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 150 8 ]
+        symbol [ randInt %randInt.6 154 12 19 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 155 8 ]
         %tmp.83 = lgetv %dc;
-        symbol [ dc %tmp.83 150 8 10 ];
-        symbol [ setColor %tmp.84 150 11 19 ];
+        symbol [ dc %tmp.83 155 8 10 ];
+        symbol [ setColor %tmp.84 155 11 19 ];
         %tmp.84 = getv function %tmp.83 :setColor;
-        symbol [ Graphics %tmp.85 150 20 28 ];
+        symbol [ Graphics %tmp.85 155 20 28 ];
         %tmp.85 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.86 150 29 40 ];
+        symbol [ COLOR_WHITE %tmp.86 155 29 40 ];
         %tmp.86 = getv %tmp.85 :COLOR_WHITE;
-        symbol [ Graphics %tmp.87 150 41 49 ];
+        symbol [ Graphics %tmp.87 155 41 49 ];
         %tmp.87 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.88 150 50 67 ];
+        symbol [ COLOR_TRANSPARENT %tmp.88 155 50 67 ];
         %tmp.88 = getv %tmp.87 :COLOR_TRANSPARENT;
         invoke %tmp.83 %tmp.84(%tmp.86, %tmp.88);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 151 8 ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 156 8 ]
         %tmp.89 = lgetv %dc;
-        symbol [ dc %tmp.89 151 8 10 ];
-        symbol [ drawRectangle %tmp.90 151 11 24 ];
+        symbol [ dc %tmp.89 156 8 10 ];
+        symbol [ drawRectangle %tmp.90 156 11 24 ];
         %tmp.90 = getv function %tmp.89 :drawRectangle;
         %tmp.91 = 0;
         %tmp.92 = 0;
         %tmp.93 = lgetv %dc_width.2;
-        symbol [ dc_width %tmp.93 151 29 37 ];
+        symbol [ dc_width %tmp.93 156 29 37 ];
         %tmp.94 = lgetv %dc_height.1;
-        symbol [ dc_height %tmp.94 151 38 47 ];
+        symbol [ dc_height %tmp.94 156 38 47 ];
         invoke %tmp.89 %tmp.90(%tmp.91, %tmp.92, %tmp.93, %tmp.94);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 152 8 ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 157 8 ]
         %tmp.95 = lgetv %dc;
-        symbol [ dc %tmp.95 152 8 10 ];
-        symbol [ drawText %tmp.96 152 11 19 ];
+        symbol [ dc %tmp.95 157 8 10 ];
+        symbol [ drawText %tmp.96 157 11 19 ];
         %tmp.96 = getv function %tmp.95 :drawText;
         %tmp.97 = lgetv %dc_width.2;
-        symbol [ dc_width %tmp.97 152 20 28 ];
+        symbol [ dc_width %tmp.97 157 20 28 ];
         %tmp.98 = 2;
         %tmp.99 = div %tmp.97 %tmp.98;
         %tmp.100 = lgetv %dc_height.1;
-        symbol [ dc_height %tmp.100 152 31 40 ];
+        symbol [ dc_height %tmp.100 157 31 40 ];
         %tmp.101 = 2;
         %tmp.102 = div %tmp.100 %tmp.101;
-        symbol [ Graphics %tmp.103 152 43 51 ];
+        symbol [ Graphics %tmp.103 157 43 51 ];
         %tmp.103 = getm $.Toybox.Graphics;
-        symbol [ FONT_LARGE %tmp.104 152 52 62 ];
+        symbol [ FONT_LARGE %tmp.104 157 52 62 ];
         %tmp.104 = getv %tmp.103 :FONT_LARGE;
         %tmp.105 = lgetv %randInt.6;
-        symbol [ randInt %tmp.105 152 63 70 ];
-        symbol [ Graphics %tmp.106 152 72 80 ];
+        symbol [ randInt %tmp.105 157 63 70 ];
+        symbol [ Graphics %tmp.106 157 72 80 ];
         %tmp.106 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.107 152 81 100 ];
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.107 157 81 100 ];
         %tmp.107 = getv %tmp.106 :TEXT_JUSTIFY_CENTER;
-        symbol [ Graphics %tmp.108 152 103 111 ];
+        symbol [ Graphics %tmp.108 157 103 111 ];
         %tmp.108 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_VCENTER %tmp.109 152 112 132 ];
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.109 157 112 132 ];
         %tmp.109 = getv %tmp.108 :TEXT_JUSTIFY_VCENTER;
         %tmp.110 = bitor %tmp.107 %tmp.109;
         invoke %tmp.95 %tmp.96(%tmp.99, %tmp.102, %tmp.104, %tmp.105, %tmp.110);
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_148_33_153_8_stop:
-        goto @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_148_13_172_8_if_end;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_148_13_172_8_if_false:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 154 13 ]
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_154_13_172_8_if_stmt:
-        symbol [ glance_mode %tmp.112 154 16 27 ];
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_153_33_158_8_stop:
+        goto @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_153_13_184_8_if_end;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_153_13_184_8_if_false:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 159 13 ]
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_159_13_184_8_if_stmt:
+        symbol [ glance_mode %tmp.112 159 16 27 ];
         %tmp.112 = getv ? :glance_mode;
         %tmp.113 = 2;
         %tmp.114 = eq %tmp.112 %tmp.113;
-        bf %tmp.114 @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_154_13_172_8_if_false;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_154_13_172_8_if_true:
-        goto @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_154_13_172_8_if_end;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_154_13_172_8_if_false:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 157 13 ]
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_157_13_172_8_if_stmt:
-        symbol [ glance_mode %tmp.116 157 16 27 ];
+        bf %tmp.114 @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_159_13_184_8_if_false;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_159_13_184_8_if_true:
+        goto @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_159_13_184_8_if_end;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_159_13_184_8_if_false:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 162 13 ]
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_162_13_184_8_if_stmt:
+        symbol [ glance_mode %tmp.116 162 16 27 ];
         %tmp.116 = getv ? :glance_mode;
         %tmp.117 = 3;
         %tmp.118 = eq %tmp.116 %tmp.117;
-        bf %tmp.118 @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_157_13_172_8_if_false;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_157_13_172_8_if_true:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_157_33_169_8_start:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 158 12 ]
-        [ "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_157_33_169_8_start" "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_157_33_169_8_stop" ]
+        bf %tmp.118 @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_162_13_184_8_if_false;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_162_13_184_8_if_true:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_162_33_174_8_start:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 163 12 ]
+        [ "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_162_33_174_8_start" "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_162_33_174_8_stop" ]
         %randBool.7 = local;
-        symbol [ randBool %randBool.7 158 16 24 ];
-        symbol [ Math %tmp.119 158 28 32 ];
+        symbol [ randBool %randBool.7 163 16 24 ];
+        symbol [ Math %tmp.119 163 28 32 ];
         %tmp.119 = getm $.Toybox.Math;
-        symbol [ rand %tmp.120 158 33 37 ];
+        symbol [ rand %tmp.120 163 33 37 ];
         %tmp.120 = getv function %tmp.119 :rand;
         %tmp.121 = invoke %tmp.119 %tmp.120();
         %tmp.122 = 2;
         %tmp.123 = mod %tmp.121 %tmp.122;
         lputv %randBool.7 %tmp.123;
-        symbol [ randBool %randBool.7 158 16 24 ];
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 159 12 ]
-        [ "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_157_33_169_8_start" "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_157_33_169_8_stop" ]
+        symbol [ randBool %randBool.7 163 16 24 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 164 12 ]
+        [ "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_162_33_174_8_start" "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_162_33_174_8_stop" ]
         %displayText.8 = local;
-        symbol [ displayText %displayText.8 159 16 27 ];
+        symbol [ displayText %displayText.8 164 16 27 ];
         %tmp.124 = null;
         lputv %displayText.8 %tmp.124;
-        symbol [ displayText %displayText.8 159 16 27 ];
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 160 12 ]
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_160_12_165_12_if_stmt:
+        symbol [ displayText %displayText.8 164 16 27 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 165 12 ]
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_165_12_170_12_if_stmt:
         %tmp.125 = lgetv %randBool.7;
-        symbol [ randBool %tmp.125 160 15 23 ];
+        symbol [ randBool %tmp.125 165 15 23 ];
         %tmp.126 = 0;
         %tmp.127 = eq %tmp.125 %tmp.126;
-        bf %tmp.127 @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_160_12_165_12_if_false;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_160_12_165_12_if_true:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_160_29_162_12_start:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 161 16 ]
+        bf %tmp.127 @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_165_12_170_12_if_false;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_165_12_170_12_if_true:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_165_29_167_12_start:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 166 16 ]
         %tmp.128 = "No";
         lputv %displayText.8 %tmp.128;
-        symbol [ displayText %displayText.8 161 16 27 ];
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_160_29_162_12_stop:
-        goto @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_160_12_165_12_if_end;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_160_12_165_12_if_false:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 163 17 ]
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_163_17_165_12_if_stmt:
+        symbol [ displayText %displayText.8 166 16 27 ];
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_165_29_167_12_stop:
+        goto @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_165_12_170_12_if_end;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_165_12_170_12_if_false:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 168 17 ]
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_168_17_170_12_if_stmt:
         %tmp.129 = lgetv %randBool.7;
-        symbol [ randBool %tmp.129 163 20 28 ];
+        symbol [ randBool %tmp.129 168 20 28 ];
         %tmp.130 = 1;
         %tmp.131 = eq %tmp.129 %tmp.130;
-        bf %tmp.131 @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_163_17_165_12_if_end;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_163_17_165_12_if_true:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_163_34_165_12_start:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 164 16 ]
+        bf %tmp.131 @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_168_17_170_12_if_end;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_168_17_170_12_if_true:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_168_34_170_12_start:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 169 16 ]
         %tmp.132 = "Yes";
         lputv %displayText.8 %tmp.132;
-        symbol [ displayText %displayText.8 164 16 27 ];
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_163_34_165_12_stop:
-        goto @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_163_17_165_12_if_end;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_163_17_165_12_if_end:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_160_12_165_12_if_end:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 166 12 ]
+        symbol [ displayText %displayText.8 169 16 27 ];
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_168_34_170_12_stop:
+        goto @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_168_17_170_12_if_end;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_168_17_170_12_if_end:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_165_12_170_12_if_end:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 171 12 ]
         %tmp.133 = lgetv %dc;
-        symbol [ dc %tmp.133 166 12 14 ];
-        symbol [ setColor %tmp.134 166 15 23 ];
+        symbol [ dc %tmp.133 171 12 14 ];
+        symbol [ setColor %tmp.134 171 15 23 ];
         %tmp.134 = getv function %tmp.133 :setColor;
-        symbol [ Graphics %tmp.135 166 24 32 ];
+        symbol [ Graphics %tmp.135 171 24 32 ];
         %tmp.135 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.136 166 33 44 ];
+        symbol [ COLOR_WHITE %tmp.136 171 33 44 ];
         %tmp.136 = getv %tmp.135 :COLOR_WHITE;
-        symbol [ Graphics %tmp.137 166 45 53 ];
+        symbol [ Graphics %tmp.137 171 45 53 ];
         %tmp.137 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.138 166 54 71 ];
+        symbol [ COLOR_TRANSPARENT %tmp.138 171 54 71 ];
         %tmp.138 = getv %tmp.137 :COLOR_TRANSPARENT;
         invoke %tmp.133 %tmp.134(%tmp.136, %tmp.138);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 167 12 ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 172 12 ]
         %tmp.139 = lgetv %dc;
-        symbol [ dc %tmp.139 167 12 14 ];
-        symbol [ drawRectangle %tmp.140 167 15 28 ];
+        symbol [ dc %tmp.139 172 12 14 ];
+        symbol [ drawRectangle %tmp.140 172 15 28 ];
         %tmp.140 = getv function %tmp.139 :drawRectangle;
         %tmp.141 = 0;
         %tmp.142 = 0;
         %tmp.143 = lgetv %dc_width.2;
-        symbol [ dc_width %tmp.143 167 33 41 ];
+        symbol [ dc_width %tmp.143 172 33 41 ];
         %tmp.144 = lgetv %dc_height.1;
-        symbol [ dc_height %tmp.144 167 42 51 ];
+        symbol [ dc_height %tmp.144 172 42 51 ];
         invoke %tmp.139 %tmp.140(%tmp.141, %tmp.142, %tmp.143, %tmp.144);
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 168 12 ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 173 12 ]
         %tmp.145 = lgetv %dc;
-        symbol [ dc %tmp.145 168 12 14 ];
-        symbol [ drawText %tmp.146 168 15 23 ];
+        symbol [ dc %tmp.145 173 12 14 ];
+        symbol [ drawText %tmp.146 173 15 23 ];
         %tmp.146 = getv function %tmp.145 :drawText;
         %tmp.147 = lgetv %dc_width.2;
-        symbol [ dc_width %tmp.147 168 24 32 ];
+        symbol [ dc_width %tmp.147 173 24 32 ];
         %tmp.148 = 2;
         %tmp.149 = div %tmp.147 %tmp.148;
         %tmp.150 = lgetv %dc_height.1;
-        symbol [ dc_height %tmp.150 168 35 44 ];
+        symbol [ dc_height %tmp.150 173 35 44 ];
         %tmp.151 = 2;
         %tmp.152 = div %tmp.150 %tmp.151;
-        symbol [ Graphics %tmp.153 168 47 55 ];
+        symbol [ Graphics %tmp.153 173 47 55 ];
         %tmp.153 = getm $.Toybox.Graphics;
-        symbol [ FONT_LARGE %tmp.154 168 56 66 ];
+        symbol [ FONT_LARGE %tmp.154 173 56 66 ];
         %tmp.154 = getv %tmp.153 :FONT_LARGE;
         %tmp.155 = lgetv %displayText.8;
-        symbol [ displayText %tmp.155 168 67 78 ];
-        symbol [ Graphics %tmp.156 168 80 88 ];
+        symbol [ displayText %tmp.155 173 67 78 ];
+        symbol [ Graphics %tmp.156 173 80 88 ];
         %tmp.156 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.157 168 89 108 ];
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.157 173 89 108 ];
         %tmp.157 = getv %tmp.156 :TEXT_JUSTIFY_CENTER;
-        symbol [ Graphics %tmp.158 168 111 119 ];
+        symbol [ Graphics %tmp.158 173 111 119 ];
         %tmp.158 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_VCENTER %tmp.159 168 120 140 ];
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.159 173 120 140 ];
         %tmp.159 = getv %tmp.158 :TEXT_JUSTIFY_VCENTER;
         %tmp.160 = bitor %tmp.157 %tmp.159;
         invoke %tmp.145 %tmp.146(%tmp.149, %tmp.152, %tmp.154, %tmp.155, %tmp.160);
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_157_33_169_8_stop:
-        goto @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_157_13_172_8_if_end;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_157_13_172_8_if_false:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc" 170 13 ]
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_170_13_172_8_if_stmt:
-        symbol [ glance_mode %tmp.162 170 16 27 ];
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_162_33_174_8_stop:
+        goto @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_162_13_184_8_if_end;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_162_13_184_8_if_false:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 175 13 ]
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_175_13_184_8_if_stmt:
+        symbol [ glance_mode %tmp.162 175 16 27 ];
         %tmp.162 = getv ? :glance_mode;
         %tmp.163 = 4;
         %tmp.164 = eq %tmp.162 %tmp.163;
-        bf %tmp.164 @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_170_13_172_8_if_end;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_170_13_172_8_if_true:
-        goto @_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_170_13_172_8_if_end;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_170_13_172_8_if_end:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_157_13_172_8_if_end:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_154_13_172_8_if_end:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_148_13_172_8_if_end:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_142_8_172_8_if_end:
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_View_mc_134_39_174_4_stop:
+        bf %tmp.164 @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_175_13_184_8_if_end;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_175_13_184_8_if_true:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_175_33_184_8_start:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 177 12 ]
+        [ "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_175_33_184_8_start" "_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_175_33_184_8_stop" ]
+        %rpsArray.9 = local;
+        symbol [ rpsArray %rpsArray.9 177 16 24 ];
+        %tmp.165 = newa 3;
+        %tmp.166 = "Rock";
+        %tmp.167 = dup %tmp.165;
+        %tmp.168 = aputv %tmp.167 0 %tmp.166;
+        %tmp.169 = "Paper";
+        %tmp.170 = dup %tmp.168;
+        %tmp.171 = aputv %tmp.170 1 %tmp.169;
+        %tmp.172 = "Scissors";
+        %tmp.173 = dup %tmp.171;
+        %tmp.174 = aputv %tmp.173 2 %tmp.172;
+        lputv %rpsArray.9 %tmp.174;
+        symbol [ rpsArray %rpsArray.9 177 16 24 ];
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 178 12 ]
+        symbol [ Math %tmp.175 178 21 25 ];
+        %tmp.175 = getm $.Toybox.Math;
+        symbol [ rand %tmp.176 178 26 30 ];
+        %tmp.176 = getv function %tmp.175 :rand;
+        %tmp.177 = invoke %tmp.175 %tmp.176();
+        %tmp.178 = lgetv %rpsArray.9;
+        symbol [ rpsArray %tmp.178 178 35 43 ];
+        symbol [ size %tmp.179 178 44 48 ];
+        %tmp.179 = getv function %tmp.178 :size;
+        %tmp.180 = invoke %tmp.178 %tmp.179();
+        symbol [ toNumber %tmp.181 178 51 59 ];
+        %tmp.181 = getv function %tmp.180 :toNumber;
+        %tmp.182 = invoke %tmp.180 %tmp.181();
+        %tmp.183 = mod %tmp.177 %tmp.182;
+        symbol [ rpsInt ? 178 12 18 ];
+        putv self :rpsInt %tmp.183;
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 179 12 ]
+        %tmp.184 = lgetv %rpsArray.9;
+        symbol [ rpsArray %tmp.184 179 24 32 ];
+        symbol [ rpsInt %tmp.186 179 33 39 ];
+        %tmp.186 = getv ? :rpsInt;
+        %tmp.187 = agetv %tmp.184 %tmp.186;
+        symbol [ rpsResult ? 179 12 21 ];
+        putv self :rpsResult %tmp.187;
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 181 12 ]
+        %tmp.188 = lgetv %dc;
+        symbol [ dc %tmp.188 181 12 14 ];
+        symbol [ setColor %tmp.189 181 15 23 ];
+        %tmp.189 = getv function %tmp.188 :setColor;
+        symbol [ Graphics %tmp.190 181 24 32 ];
+        %tmp.190 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.191 181 33 44 ];
+        %tmp.191 = getv %tmp.190 :COLOR_WHITE;
+        symbol [ Graphics %tmp.192 181 45 53 ];
+        %tmp.192 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.193 181 54 71 ];
+        %tmp.193 = getv %tmp.192 :COLOR_TRANSPARENT;
+        invoke %tmp.188 %tmp.189(%tmp.191, %tmp.193);
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 182 12 ]
+        %tmp.194 = lgetv %dc;
+        symbol [ dc %tmp.194 182 12 14 ];
+        symbol [ drawRectangle %tmp.195 182 15 28 ];
+        %tmp.195 = getv function %tmp.194 :drawRectangle;
+        %tmp.196 = 0;
+        %tmp.197 = 0;
+        %tmp.198 = lgetv %dc_width.2;
+        symbol [ dc_width %tmp.198 182 33 41 ];
+        %tmp.199 = lgetv %dc_height.1;
+        symbol [ dc_height %tmp.199 182 42 51 ];
+        invoke %tmp.194 %tmp.195(%tmp.196, %tmp.197, %tmp.198, %tmp.199);
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" 183 12 ]
+        %tmp.200 = lgetv %dc;
+        symbol [ dc %tmp.200 183 12 14 ];
+        symbol [ drawText %tmp.201 183 15 23 ];
+        %tmp.201 = getv function %tmp.200 :drawText;
+        %tmp.202 = lgetv %dc_width.2;
+        symbol [ dc_width %tmp.202 183 24 32 ];
+        %tmp.203 = 2;
+        %tmp.204 = div %tmp.202 %tmp.203;
+        %tmp.205 = lgetv %dc_height.1;
+        symbol [ dc_height %tmp.205 183 35 44 ];
+        %tmp.206 = 2;
+        %tmp.207 = div %tmp.205 %tmp.206;
+        symbol [ Graphics %tmp.208 183 47 55 ];
+        %tmp.208 = getm $.Toybox.Graphics;
+        symbol [ FONT_LARGE %tmp.209 183 56 66 ];
+        %tmp.209 = getv %tmp.208 :FONT_LARGE;
+        symbol [ rpsResult %tmp.211 183 67 76 ];
+        %tmp.211 = getv ? :rpsResult;
+        symbol [ Graphics %tmp.212 183 78 86 ];
+        %tmp.212 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.213 183 87 106 ];
+        %tmp.213 = getv %tmp.212 :TEXT_JUSTIFY_CENTER;
+        symbol [ Graphics %tmp.214 183 109 117 ];
+        %tmp.214 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.215 183 118 138 ];
+        %tmp.215 = getv %tmp.214 :TEXT_JUSTIFY_VCENTER;
+        %tmp.216 = bitor %tmp.213 %tmp.215;
+        invoke %tmp.200 %tmp.201(%tmp.204, %tmp.207, %tmp.209, %tmp.211, %tmp.216);
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_175_33_184_8_stop:
+        goto @_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_175_13_184_8_if_end;
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_175_13_184_8_if_end:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_162_13_184_8_if_end:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_159_13_184_8_if_end:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_153_13_184_8_if_end:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_147_8_184_8_if_end:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_View_mc_139_39_186_4_stop:
     }
 }
-[ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 1; ]
+[ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc"; @line = 1; ]
 <init> {
 }

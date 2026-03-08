@@ -18,8 +18,29 @@
       "value" : 1
     }, {
       "display" : "$literal3$",
+      "value" : 2
+    }, {
+      "display" : "$literal4$",
       "value" : 3
+    }, {
+      "display" : "$literal5$",
+      "value" : 4
     } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "NameList",
+    "valueType" : "string",
+    "defaultValue" : "Alice, Bob, Charlie",
+    "configTitle" : "$literal6$",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
     "configMin" : null,
     "configMax" : null,
     "configMaxLength" : null
@@ -27,7 +48,7 @@
     "key" : "RangeMin",
     "valueType" : "number",
     "defaultValue" : 1,
-    "configTitle" : "$literal4$",
+    "configTitle" : "$literal7$",
     "configPrompt" : null,
     "configType" : "numeric",
     "configError" : null,
@@ -42,7 +63,7 @@
     "key" : "RangeMax",
     "valueType" : "number",
     "defaultValue" : 100,
-    "configTitle" : "$literal5$",
+    "configTitle" : "$literal8$",
     "configPrompt" : null,
     "configType" : "numeric",
     "configError" : null,
@@ -59,10 +80,13 @@
     "valyrian" : {
       "$literal1$" : "Pair of Dice",
       "$literal0$" : "Glance Content",
-      "$literal3$" : "Yes / No",
+      "$literal3$" : "Random Name",
       "$literal2$" : "Random Number",
-      "$literal5$" : "Max Number",
-      "$literal4$" : "Min Number",
+      "$literal5$" : "Rock Paper Scissors",
+      "$literal4$" : "Yes / No",
+      "$literal7$" : "Min Number",
+      "$literal6$" : "Name List (separate by commas)",
+      "$literal8$" : "Max Number",
       "AppName" : "Simply-Random"
     }
   }

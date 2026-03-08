@@ -1,40 +1,40 @@
-[ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Application,1,14,25]; ]
+[ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Application,1,14,25]; ]
 import Toybox.Application;
-[ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+[ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
 import Toybox.Lang;
-[ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+[ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 5; @symbol_classdef = [Simply_RandomApp,5,6,22]; @symbol_extends<0> = [Application,5,31,42]; @symbol_extends<1> = [AppBase,5,43,50]; ]
+[ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 5; @symbol_classdef = [Simply_RandomApp,5,6,22]; @symbol_extends<0> = [Application,5,31,42]; @symbol_extends<1> = [AppBase,5,43,50]; ]
 class Simply_RandomApp extends Application.AppBase {
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 5; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 5; ]
     <init> {
     }
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 5; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 5; ]
     static
     <init> {
     }
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
     function initialize() as Void {
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_App_mc_7_26_9_4_start:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/App.mc" 8 8 ]
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_App_mc_7_26_9_4_start:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc" 8 8 ]
         symbol [ AppBase %tmp.2 8 8 15 ];
         %tmp.2 = getv ? :AppBase;
         symbol [ initialize %tmp.3 8 16 26 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_App_mc_7_26_9_4_stop:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_App_mc_7_26_9_4_stop:
     }
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 12; @symbol_functiondef = [onStart,12,13,20]; @symbol_param<0> = [state,12,21,26]; @symbol_param<0>_type<0> = [Dictionary,12,30,40]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 12; @symbol_functiondef = [onStart,12,13,20]; @symbol_param<0> = [state,12,21,26]; @symbol_param<0>_type<0> = [Dictionary,12,30,40]; ]
     function onStart(state as Dictionary or Null) as Void {
     }
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 17; @symbol_functiondef = [onStop,17,13,19]; @symbol_param<0> = [state,17,20,25]; @symbol_param<0>_type<0> = [Dictionary,17,29,39]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 17; @symbol_functiondef = [onStop,17,13,19]; @symbol_param<0> = [state,17,20,25]; @symbol_param<0>_type<0> = [Dictionary,17,29,39]; ]
     function onStop(state as Dictionary or Null) as Void {
     }
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 22; @symbol_functiondef = [getInitialView,22,13,27]; @symbol_return<0> = [Views,22,34,39]; @symbol_return<1> = [Views,22,45,50]; @symbol_return<2> = [InputDelegates,22,52,66]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 22; @symbol_functiondef = [getInitialView,22,13,27]; @symbol_return<0> = [Views,22,34,39]; @symbol_return<1> = [Views,22,45,50]; @symbol_return<2> = [InputDelegates,22,52,66]; ]
     function getInitialView() as [Views] or [Views, InputDelegates] {
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_App_mc_22_68_27_4_start:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/App.mc" 23 8 ]
-        [ "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_App_mc_22_68_27_4_start" "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_App_mc_22_68_27_4_stop" ]
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_App_mc_22_68_27_4_start:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc" 23 8 ]
+        [ "_home_kaden_Code_Garmin_Projects_Simply_Random_source_App_mc_22_68_27_4_start" "_home_kaden_Code_Garmin_Projects_Simply_Random_source_App_mc_22_68_27_4_stop" ]
         %mainView.1 = local;
         symbol [ mainView %mainView.1 23 12 20 ];
         symbol [ Simply_RandomView %tmp.4 23 27 44 ];
@@ -42,8 +42,8 @@ _home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_App_mc_22_68_27_
         %tmp.1 = newc %tmp.4 ();
         lputv %mainView.1 %tmp.1;
         symbol [ mainView %mainView.1 23 12 20 ];
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/App.mc" 24 8 ]
-        [ "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_App_mc_22_68_27_4_start" "_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_App_mc_22_68_27_4_stop" ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc" 24 8 ]
+        [ "_home_kaden_Code_Garmin_Projects_Simply_Random_source_App_mc_22_68_27_4_start" "_home_kaden_Code_Garmin_Projects_Simply_Random_source_App_mc_22_68_27_4_stop" ]
         %mainDelegate.2 = local;
         symbol [ mainDelegate %mainDelegate.2 24 12 24 ];
         symbol [ Simply_RandomDelegate %tmp.8 24 31 52 ];
@@ -53,7 +53,7 @@ _home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_App_mc_22_68_27_
         %tmp.5 = newc %tmp.8 (%tmp.9);
         lputv %mainDelegate.2 %tmp.5;
         symbol [ mainDelegate %mainDelegate.2 24 12 24 ];
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/App.mc" 26 8 ]
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc" 26 8 ]
         %tmp.10 = newa 2;
         %tmp.11 = lgetv %mainView.1;
         symbol [ mainView %tmp.11 26 16 24 ];
@@ -64,12 +64,12 @@ _home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_App_mc_22_68_27_
         %tmp.15 = dup %tmp.13;
         %tmp.16 = aputv %tmp.15 1 %tmp.14;
         ret %tmp.16;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_App_mc_22_68_27_4_stop:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_App_mc_22_68_27_4_stop:
     }
-    [ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 29; @symbol_functiondef = [getGlanceView,29,13,26]; ]
+    [ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 29; @symbol_functiondef = [getGlanceView,29,13,26]; ]
     function getGlanceView() {
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_App_mc_29_28_32_4_start:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/App.mc" 31 8 ]
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_App_mc_29_28_32_4_start:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc" 31 8 ]
         %tmp.1 = newa 1;
         symbol [ Simply_RandomGlance %tmp.5 31 20 39 ];
         %tmp.5 = getv ? :Simply_RandomGlance;
@@ -77,13 +77,13 @@ _home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_App_mc_29_28_32_
         %tmp.6 = dup %tmp.1;
         %tmp.7 = aputv %tmp.6 0 %tmp.2;
         ret %tmp.7;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_App_mc_29_28_32_4_stop:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_App_mc_29_28_32_4_stop:
     }
 }
-[ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 36; @symbol_functiondef = [getApp,36,9,15]; @symbol_return<0> = [Simply_RandomApp,36,21,37]; ]
+[ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 36; @symbol_functiondef = [getApp,36,9,15]; @symbol_return<0> = [Simply_RandomApp,36,21,37]; ]
 function getApp() as Simply_RandomApp {
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_App_mc_36_38_38_0_start:
-[ "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/App.mc" 37 4 ]
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_App_mc_36_38_38_0_start:
+[ "/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc" 37 4 ]
     symbol [ Application %tmp.1 37 11 22 ];
     %tmp.1 = getm $.Toybox.Application;
     symbol [ getApp %tmp.2 37 23 29 ];
@@ -92,8 +92,8 @@ _home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_App_mc_36_38_38_
     %tmp.4 = as %tmp.3 Simply_RandomApp;
     symbol [ Simply_RandomApp %tmp.4 37 35 51 ];
     ret %tmp.4;
-_home_kaden_Documents_Code_Garmin_Projects_Simply_Random_source_App_mc_36_38_38_0_stop:
+_home_kaden_Code_Garmin_Projects_Simply_Random_source_App_mc_36_38_38_0_stop:
 }
-[ @file = "/home/kaden/Documents/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 1; ]
+[ @file = "/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc"; @line = 1; ]
 <init> {
 }

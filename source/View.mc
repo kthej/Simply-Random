@@ -6,6 +6,8 @@ import Toybox.Application.Properties;
 // import Toybox.Sensor;
 public var mainRand;
 
+
+
 (:glance)
 class Dice {
     var x_pos, y_pos, side, number, radius;
@@ -126,6 +128,9 @@ class Simply_RandomView extends WatchUi.View {
 class Simply_RandomGlance extends WatchUi.GlanceView{
     public var glance_die = new Dice();
     public var glance_mode = Properties.getValue("GlanceMode");
+    
+    public var rpsInt;
+    public var rpsResult;
 
     function initialize(){
         GlanceView.initialize();
@@ -168,7 +173,14 @@ class Simply_RandomGlance extends WatchUi.GlanceView{
             dc.drawText(dc_width/2,dc_height/2,Graphics.FONT_LARGE,displayText, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
         }
         else if(glance_mode == 4){
-            
+
+            var rpsArray = ["Rock", "Paper", "Scissors"];
+            rpsInt = Math.rand() % rpsArray.size().toNumber();
+            rpsResult = rpsArray[rpsInt];
+
+            dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
+            dc.drawRectangle(0,0,dc_width,dc_height);
+            dc.drawText(dc_width/2,dc_height/2,Graphics.FONT_LARGE,rpsResult, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
         }
 
     }
