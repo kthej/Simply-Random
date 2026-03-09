@@ -1,6 +1,9 @@
 <properties>
-    <property id="GlanceMode" type="number">5</property>
-    
+    <property id="GlanceMode" type="number">6</property>
+    <property id="MainMode" type="number">0</property>
+    <property id="TopMode" type="number">1</property>
+    <property id="BottomMode" type="number">6</property>
+    <property id="BorderRectangle" type="number">1</property>
     <property id="NameList" type="string">Alice, Bob, Charlie</property>
     
     <property id="RangeMin" type="number">1</property>

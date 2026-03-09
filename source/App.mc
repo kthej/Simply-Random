@@ -30,6 +30,9 @@ class Simply_RandomApp extends Application.AppBase {
         
         return [new Simply_RandomGlance()];
     }
+    function onSettingsChanged(){
+        WatchUi.requestUpdate();
+    }
 
 }
 

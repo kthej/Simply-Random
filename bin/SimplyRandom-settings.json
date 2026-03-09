@@ -2,7 +2,7 @@
   "settings" : [ {
     "key" : "GlanceMode",
     "valueType" : "number",
-    "defaultValue" : 5,
+    "defaultValue" : 6,
     "configTitle" : "$literal0$",
     "configPrompt" : null,
     "configType" : "list",
@@ -28,6 +28,105 @@
     }, {
       "display" : "$literal6$",
       "value" : 5
+    }, {
+      "display" : "$literal7$",
+      "value" : 6
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "MainMode",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "$literal8$",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "$literal1$",
+      "value" : 0
+    }, {
+      "display" : "$literal2$",
+      "value" : 1
+    }, {
+      "display" : "$literal3$",
+      "value" : 2
+    }, {
+      "display" : "$literal4$",
+      "value" : 3
+    }, {
+      "display" : "$literal5$",
+      "value" : 4
+    }, {
+      "display" : "$literal6$",
+      "value" : 5
+    }, {
+      "display" : "$literal7$",
+      "value" : 6
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "TopMode",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "$literal9$",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "$literal2$",
+      "value" : 1
+    }, {
+      "display" : "$literal3$",
+      "value" : 2
+    }, {
+      "display" : "$literal4$",
+      "value" : 3
+    }, {
+      "display" : "$literal5$",
+      "value" : 4
+    }, {
+      "display" : "$literal7$",
+      "value" : 6
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "BottomMode",
+    "valueType" : "number",
+    "defaultValue" : 6,
+    "configTitle" : "$literal10$",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "$literal2$",
+      "value" : 1
+    }, {
+      "display" : "$literal3$",
+      "value" : 2
+    }, {
+      "display" : "$literal4$",
+      "value" : 3
+    }, {
+      "display" : "$literal5$",
+      "value" : 4
+    }, {
+      "display" : "$literal7$",
+      "value" : 6
     } ],
     "configMin" : null,
     "configMax" : null,
@@ -36,7 +135,7 @@
     "key" : "NameList",
     "valueType" : "string",
     "defaultValue" : "Alice, Bob, Charlie",
-    "configTitle" : "$literal7$",
+    "configTitle" : "$literal11$",
     "configPrompt" : null,
     "configType" : "alphaNumeric",
     "configError" : null,
@@ -51,7 +150,7 @@
     "key" : "RangeMin",
     "valueType" : "number",
     "defaultValue" : 1,
-    "configTitle" : "$literal8$",
+    "configTitle" : "$literal12$",
     "configPrompt" : null,
     "configType" : "numeric",
     "configError" : null,
@@ -66,7 +165,7 @@
     "key" : "RangeMax",
     "valueType" : "number",
     "defaultValue" : 100,
-    "configTitle" : "$literal9$",
+    "configTitle" : "$literal13$",
     "configPrompt" : null,
     "configType" : "numeric",
     "configError" : null,
@@ -77,21 +176,49 @@
     "configMin" : null,
     "configMax" : null,
     "configMaxLength" : null
+  }, {
+    "key" : "BorderRectangle",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "$literal14$",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "$literal15$",
+      "value" : 0
+    }, {
+      "display" : "$literal16$",
+      "value" : 1
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
   } ],
   "supportsLiveValidation" : false,
   "languages" : {
     "valyrian" : {
+      "AppName" : "Simply-Random",
       "$literal1$" : "Pair of Dice",
-      "$literal0$" : "Glance Content",
+      "$literal15$" : "No",
+      "$literal0$" : "Glance Item",
+      "$literal16$" : "Yes",
       "$literal3$" : "Random Name",
+      "$literal13$" : "Max Number",
       "$literal2$" : "Random Number",
+      "$literal14$" : "Draw a border on glance?",
       "$literal5$" : "Rock Paper Scissors",
       "$literal4$" : "Yes / No",
-      "$literal7$" : "Name List (separate by commas)",
+      "$literal7$" : "Coin Flip",
       "$literal6$" : "Magic 8 Ball",
-      "$literal9$" : "Max Number",
-      "$literal8$" : "Min Number",
-      "AppName" : "Simply-Random"
+      "$literal9$" : "In-App Top Item",
+      "$literal8$" : "In-App Center Item",
+      "$literal11$" : "Name List (separate by commas)",
+      "$literal12$" : "Min Number",
+      "$literal10$" : "In-App Bottom Item"
     }
   }
 }

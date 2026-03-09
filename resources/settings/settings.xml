@@ -1,5 +1,5 @@
 <settings>
-    <setting propertyKey="@Properties.GlanceMode" title="Glance Content">
+    <setting propertyKey="@Properties.GlanceMode" title="Glance Item">
         <settingConfig type="list">
             <listEntry value="0">Pair of Dice</listEntry>
             <listEntry value="1">Random Number</listEntry>
@@ -7,6 +7,42 @@
             <listEntry value="3">Yes / No</listEntry>
             <listEntry value="4">Rock Paper Scissors</listEntry>
             <listEntry value="5">Magic 8 Ball</listEntry>
+            <listEntry value="6">Coin Flip</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.MainMode" title="In-App Center Item">
+        <settingConfig type="list">
+            <listEntry value="0">Pair of Dice</listEntry>
+            <listEntry value="1">Random Number</listEntry>
+            <listEntry value="2">Random Name</listEntry>
+            <listEntry value="3">Yes / No</listEntry>
+            <listEntry value="4">Rock Paper Scissors</listEntry>
+            <listEntry value="5">Magic 8 Ball</listEntry>
+            <listEntry value="6">Coin Flip</listEntry>
+        </settingConfig>
+    </setting>
+        <setting propertyKey="@Properties.TopMode" title="In-App Top Item">
+        <settingConfig type="list">
+            <!-- <listEntry value="0">Pair of Dice</listEntry> -->
+            <listEntry value="1">Random Number</listEntry>
+            <listEntry value="2">Random Name</listEntry>
+            <listEntry value="3">Yes / No</listEntry>
+            <listEntry value="4">Rock Paper Scissors</listEntry>
+            <!-- <listEntry value="5">Magic 8 Ball</listEntry> -->
+            <listEntry value="6">Coin Flip</listEntry>
+        </settingConfig>
+    </setting>
+
+        <setting propertyKey="@Properties.BottomMode" title="In-App Bottom Item">
+        <settingConfig type="list">
+            <!-- <listEntry value="0">Pair of Dice</listEntry> -->
+            <listEntry value="1">Random Number</listEntry>
+            <listEntry value="2">Random Name</listEntry>
+            <listEntry value="3">Yes / No</listEntry>
+            <listEntry value="4">Rock Paper Scissors</listEntry>
+            <!-- <listEntry value="5">Magic 8 Ball</listEntry> -->
+            <listEntry value="6">Coin Flip</listEntry>
         </settingConfig>
     </setting>
 
@@ -22,4 +58,11 @@
     <setting propertyKey="@Properties.RangeMax" title="Max Number">
         <settingConfig type="numeric" />
     </setting>
+    <setting propertyKey="@Properties.BorderRectangle" title="Draw a border on glance?">
+        <settingConfig type="List">
+            <listEntry value = "0">No</listEntry>
+            <listEntry value = "1">Yes</listEntry>
+        </settingConfig>
+    </setting>
+    
 </settings>
