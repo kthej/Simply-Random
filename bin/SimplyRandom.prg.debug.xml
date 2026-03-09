@@ -3,9 +3,9 @@
     <manifest filename="/home/kaden/Code/Garmin Projects/Simply-Random/manifest.xml"/>
     <pcToLineNum>
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc" id="1" lineNum="5" parent="globals/Simply_RandomApp" pc="268435460" symbol="&lt;init&gt;"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="2" lineNum="251" parent="globals/Simply_RandomGlance" pc="268435472" symbol="&lt;init&gt;"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="2" lineNum="252" parent="globals/Simply_RandomGlance" pc="268435483" symbol="&lt;init&gt;"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="2" lineNum="253" parent="globals/Simply_RandomGlance" pc="268435508" symbol="&lt;init&gt;"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="2" lineNum="394" parent="globals/Simply_RandomGlance" pc="268435472" symbol="&lt;init&gt;"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="2" lineNum="395" parent="globals/Simply_RandomGlance" pc="268435483" symbol="&lt;init&gt;"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="2" lineNum="396" parent="globals/Simply_RandomGlance" pc="268435508" symbol="&lt;init&gt;"/>
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc" id="3" lineNum="12" parent="globals/Simply_RandomApp" pc="268435533" symbol="onStart"/>
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc" id="4" lineNum="33" parent="globals/Simply_RandomApp" pc="268435536" symbol="onSettingsChanged"/>
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc" id="4" lineNum="34" parent="globals/Simply_RandomApp" pc="268435538" symbol="onSettingsChanged"/>
@@ -18,73 +18,73 @@
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc" id="7" lineNum="29" parent="globals/Simply_RandomApp" pc="268435625" symbol="getGlanceView"/>
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc" id="7" lineNum="31" parent="globals/Simply_RandomApp" pc="268435627" symbol="getGlanceView"/>
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc" id="8" lineNum="17" parent="globals/Simply_RandomApp" pc="268435653" symbol="onStop"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="9" lineNum="260" parent="globals/Simply_RandomGlance" pc="268435656" symbol="initialize"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="9" lineNum="261" parent="globals/Simply_RandomGlance" pc="268435658" symbol="initialize"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="264" parent="globals/Simply_RandomGlance" pc="268435671" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="266" parent="globals/Simply_RandomGlance" pc="268435674" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="267" parent="globals/Simply_RandomGlance" pc="268435683" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="268" parent="globals/Simply_RandomGlance" pc="268435692" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="269" parent="globals/Simply_RandomGlance" pc="268435711" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="270" parent="globals/Simply_RandomGlance" pc="268435730" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="272" parent="globals/Simply_RandomGlance" pc="268435737" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="273" parent="globals/Simply_RandomGlance" pc="268435747" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="274" parent="globals/Simply_RandomGlance" pc="268435764" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="275" parent="globals/Simply_RandomGlance" pc="268435817" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="278" parent="globals/Simply_RandomGlance" pc="268435870" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="279" parent="globals/Simply_RandomGlance" pc="268435881" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="280" parent="globals/Simply_RandomGlance" pc="268435902" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="281" parent="globals/Simply_RandomGlance" pc="268435919" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="282" parent="globals/Simply_RandomGlance" pc="268435935" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="284" parent="globals/Simply_RandomGlance" pc="268435964" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="286" parent="globals/Simply_RandomGlance" pc="268435975" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="287" parent="globals/Simply_RandomGlance" pc="268436000" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="288" parent="globals/Simply_RandomGlance" pc="268436004" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="293" parent="globals/Simply_RandomGlance" pc="268436011" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="294" parent="globals/Simply_RandomGlance" pc="268436027" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="296" parent="globals/Simply_RandomGlance" pc="268436034" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="298" parent="globals/Simply_RandomGlance" pc="268436045" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="299" parent="globals/Simply_RandomGlance" pc="268436057" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="300" parent="globals/Simply_RandomGlance" pc="268436069" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="304" parent="globals/Simply_RandomGlance" pc="268436082" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="309" parent="globals/Simply_RandomGlance" pc="268436102" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="310" parent="globals/Simply_RandomGlance" pc="268436114" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="314" parent="globals/Simply_RandomGlance" pc="268436129" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="315" parent="globals/Simply_RandomGlance" pc="268436155" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="317" parent="globals/Simply_RandomGlance" pc="268436162" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="319" parent="globals/Simply_RandomGlance" pc="268436179" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="321" parent="globals/Simply_RandomGlance" pc="268436208" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="322" parent="globals/Simply_RandomGlance" pc="268436219" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="323" parent="globals/Simply_RandomGlance" pc="268436234" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="324" parent="globals/Simply_RandomGlance" pc="268436237" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="325" parent="globals/Simply_RandomGlance" pc="268436244" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="327" parent="globals/Simply_RandomGlance" pc="268436254" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="328" parent="globals/Simply_RandomGlance" pc="268436262" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="330" parent="globals/Simply_RandomGlance" pc="268436272" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="331" parent="globals/Simply_RandomGlance" pc="268436289" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="332" parent="globals/Simply_RandomGlance" pc="268436305" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="334" parent="globals/Simply_RandomGlance" pc="268436334" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="337" parent="globals/Simply_RandomGlance" pc="268436345" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="338" parent="globals/Simply_RandomGlance" pc="268436352" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="339" parent="globals/Simply_RandomGlance" pc="268436378" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="341" parent="globals/Simply_RandomGlance" pc="268436385" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="343" parent="globals/Simply_RandomGlance" pc="268436402" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="345" parent="globals/Simply_RandomGlance" pc="268436431" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="348" parent="globals/Simply_RandomGlance" pc="268436442" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="370" parent="globals/Simply_RandomGlance" pc="268436449" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="371" parent="globals/Simply_RandomGlance" pc="268436475" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="373" parent="globals/Simply_RandomGlance" pc="268436482" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="375" parent="globals/Simply_RandomGlance" pc="268436499" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="377" parent="globals/Simply_RandomGlance" pc="268436528" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="379" parent="globals/Simply_RandomGlance" pc="268436539" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="380" parent="globals/Simply_RandomGlance" pc="268436554" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="381" parent="globals/Simply_RandomGlance" pc="268436557" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="382" parent="globals/Simply_RandomGlance" pc="268436564" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="384" parent="globals/Simply_RandomGlance" pc="268436574" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="385" parent="globals/Simply_RandomGlance" pc="268436582" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="387" parent="globals/Simply_RandomGlance" pc="268436592" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="389" parent="globals/Simply_RandomGlance" pc="268436609" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="391" parent="globals/Simply_RandomGlance" pc="268436638" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="391" parent="globals/Simply_RandomGlance" pc="268436660" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="9" lineNum="398" parent="globals/Simply_RandomGlance" pc="268435656" symbol="initialize"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="9" lineNum="399" parent="globals/Simply_RandomGlance" pc="268435658" symbol="initialize"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="402" parent="globals/Simply_RandomGlance" pc="268435671" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="404" parent="globals/Simply_RandomGlance" pc="268435674" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="405" parent="globals/Simply_RandomGlance" pc="268435683" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="406" parent="globals/Simply_RandomGlance" pc="268435692" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="407" parent="globals/Simply_RandomGlance" pc="268435711" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="408" parent="globals/Simply_RandomGlance" pc="268435730" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="410" parent="globals/Simply_RandomGlance" pc="268435737" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="411" parent="globals/Simply_RandomGlance" pc="268435747" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="412" parent="globals/Simply_RandomGlance" pc="268435764" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="413" parent="globals/Simply_RandomGlance" pc="268435817" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="416" parent="globals/Simply_RandomGlance" pc="268435870" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="417" parent="globals/Simply_RandomGlance" pc="268435881" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="418" parent="globals/Simply_RandomGlance" pc="268435902" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="419" parent="globals/Simply_RandomGlance" pc="268435919" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="420" parent="globals/Simply_RandomGlance" pc="268435935" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="422" parent="globals/Simply_RandomGlance" pc="268435964" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="424" parent="globals/Simply_RandomGlance" pc="268435975" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="425" parent="globals/Simply_RandomGlance" pc="268436000" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="426" parent="globals/Simply_RandomGlance" pc="268436004" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="431" parent="globals/Simply_RandomGlance" pc="268436011" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="432" parent="globals/Simply_RandomGlance" pc="268436027" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="434" parent="globals/Simply_RandomGlance" pc="268436034" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="436" parent="globals/Simply_RandomGlance" pc="268436045" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="437" parent="globals/Simply_RandomGlance" pc="268436057" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="438" parent="globals/Simply_RandomGlance" pc="268436069" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="442" parent="globals/Simply_RandomGlance" pc="268436082" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="447" parent="globals/Simply_RandomGlance" pc="268436102" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="448" parent="globals/Simply_RandomGlance" pc="268436114" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="452" parent="globals/Simply_RandomGlance" pc="268436129" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="453" parent="globals/Simply_RandomGlance" pc="268436155" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="455" parent="globals/Simply_RandomGlance" pc="268436162" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="457" parent="globals/Simply_RandomGlance" pc="268436179" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="459" parent="globals/Simply_RandomGlance" pc="268436208" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="460" parent="globals/Simply_RandomGlance" pc="268436219" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="461" parent="globals/Simply_RandomGlance" pc="268436234" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="462" parent="globals/Simply_RandomGlance" pc="268436237" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="463" parent="globals/Simply_RandomGlance" pc="268436244" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="465" parent="globals/Simply_RandomGlance" pc="268436254" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="466" parent="globals/Simply_RandomGlance" pc="268436262" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="468" parent="globals/Simply_RandomGlance" pc="268436272" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="469" parent="globals/Simply_RandomGlance" pc="268436289" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="470" parent="globals/Simply_RandomGlance" pc="268436305" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="472" parent="globals/Simply_RandomGlance" pc="268436334" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="475" parent="globals/Simply_RandomGlance" pc="268436345" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="476" parent="globals/Simply_RandomGlance" pc="268436352" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="477" parent="globals/Simply_RandomGlance" pc="268436378" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="479" parent="globals/Simply_RandomGlance" pc="268436385" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="481" parent="globals/Simply_RandomGlance" pc="268436402" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="483" parent="globals/Simply_RandomGlance" pc="268436431" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="486" parent="globals/Simply_RandomGlance" pc="268436442" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="508" parent="globals/Simply_RandomGlance" pc="268436449" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="509" parent="globals/Simply_RandomGlance" pc="268436475" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="511" parent="globals/Simply_RandomGlance" pc="268436482" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="513" parent="globals/Simply_RandomGlance" pc="268436499" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="515" parent="globals/Simply_RandomGlance" pc="268436528" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="517" parent="globals/Simply_RandomGlance" pc="268436539" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="518" parent="globals/Simply_RandomGlance" pc="268436554" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="519" parent="globals/Simply_RandomGlance" pc="268436557" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="520" parent="globals/Simply_RandomGlance" pc="268436564" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="522" parent="globals/Simply_RandomGlance" pc="268436574" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="523" parent="globals/Simply_RandomGlance" pc="268436582" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="525" parent="globals/Simply_RandomGlance" pc="268436592" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="527" parent="globals/Simply_RandomGlance" pc="268436609" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="529" parent="globals/Simply_RandomGlance" pc="268436638" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="10" lineNum="529" parent="globals/Simply_RandomGlance" pc="268436660" symbol="onUpdate"/>
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="12" lineNum="17" parent="globals/Dice" pc="268436680" symbol="draw"/>
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="12" lineNum="18" parent="globals/Dice" pc="268436682" symbol="draw"/>
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="12" lineNum="19" parent="globals/Dice" pc="268436699" symbol="draw"/>
@@ -119,7 +119,7 @@
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc" id="13" lineNum="39" parent="globals" pc="268437417" symbol="getApp"/>
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/App.mc" id="13" lineNum="40" parent="globals" pc="268437427" symbol="getApp"/>
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/InputHandling.mc" id="14" lineNum="5" parent="globals/Simply_RandomDelegate" pc="268437438" symbol="&lt;init&gt;"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/bin/gen/006-B4585-00/source/Rez.mcgen" id="15" lineNum="7" parent="globals/Rez" pc="268437450" symbol="&lt;init&gt;"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/bin/gen/006-B4258-00/source/Rez.mcgen" id="15" lineNum="7" parent="globals/Rez" pc="268437450" symbol="&lt;init&gt;"/>
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="16" lineNum="58" parent="globals/Simply_RandomView" pc="268437470" symbol="&lt;init&gt;"/>
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="16" lineNum="60" parent="globals/Simply_RandomView" pc="268437481" symbol="&lt;init&gt;"/>
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="16" lineNum="62" parent="globals/Simply_RandomView" pc="268437506" symbol="&lt;init&gt;"/>
@@ -153,68 +153,150 @@
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="103" parent="globals/Simply_RandomView" pc="268437820" symbol="onUpdate"/>
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="105" parent="globals/Simply_RandomView" pc="268437836" symbol="onUpdate"/>
         <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="107" parent="globals/Simply_RandomView" pc="268437852" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="108" parent="globals/Simply_RandomView" pc="268437862" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="110" parent="globals/Simply_RandomView" pc="268437894" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="111" parent="globals/Simply_RandomView" pc="268437905" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="116" parent="globals/Simply_RandomView" pc="268437937" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="117" parent="globals/Simply_RandomView" pc="268437944" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="118" parent="globals/Simply_RandomView" pc="268437997" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="120" parent="globals/Simply_RandomView" pc="268438056" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="121" parent="globals/Simply_RandomView" pc="268438064" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="122" parent="globals/Simply_RandomView" pc="268438085" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="123" parent="globals/Simply_RandomView" pc="268438102" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="124" parent="globals/Simply_RandomView" pc="268438118" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="126" parent="globals/Simply_RandomView" pc="268438147" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="128" parent="globals/Simply_RandomView" pc="268438155" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="129" parent="globals/Simply_RandomView" pc="268438180" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="130" parent="globals/Simply_RandomView" pc="268438184" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="135" parent="globals/Simply_RandomView" pc="268438191" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="136" parent="globals/Simply_RandomView" pc="268438207" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="138" parent="globals/Simply_RandomView" pc="268438214" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="140" parent="globals/Simply_RandomView" pc="268438225" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="141" parent="globals/Simply_RandomView" pc="268438237" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="142" parent="globals/Simply_RandomView" pc="268438249" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="146" parent="globals/Simply_RandomView" pc="268438262" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="151" parent="globals/Simply_RandomView" pc="268438282" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="152" parent="globals/Simply_RandomView" pc="268438294" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="156" parent="globals/Simply_RandomView" pc="268438309" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="157" parent="globals/Simply_RandomView" pc="268438335" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="159" parent="globals/Simply_RandomView" pc="268438342" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="161" parent="globals/Simply_RandomView" pc="268438359" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="163" parent="globals/Simply_RandomView" pc="268438388" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="164" parent="globals/Simply_RandomView" pc="268438396" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="165" parent="globals/Simply_RandomView" pc="268438411" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="166" parent="globals/Simply_RandomView" pc="268438414" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="167" parent="globals/Simply_RandomView" pc="268438421" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="169" parent="globals/Simply_RandomView" pc="268438431" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="170" parent="globals/Simply_RandomView" pc="268438439" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="172" parent="globals/Simply_RandomView" pc="268438449" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="173" parent="globals/Simply_RandomView" pc="268438466" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="174" parent="globals/Simply_RandomView" pc="268438482" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="176" parent="globals/Simply_RandomView" pc="268438511" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="179" parent="globals/Simply_RandomView" pc="268438519" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="180" parent="globals/Simply_RandomView" pc="268438526" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="181" parent="globals/Simply_RandomView" pc="268438552" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="183" parent="globals/Simply_RandomView" pc="268438559" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="185" parent="globals/Simply_RandomView" pc="268438576" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="187" parent="globals/Simply_RandomView" pc="268438605" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="190" parent="globals/Simply_RandomView" pc="268438613" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="212" parent="globals/Simply_RandomView" pc="268438620" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="213" parent="globals/Simply_RandomView" pc="268438646" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="215" parent="globals/Simply_RandomView" pc="268438653" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="217" parent="globals/Simply_RandomView" pc="268438670" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="219" parent="globals/Simply_RandomView" pc="268438699" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="221" parent="globals/Simply_RandomView" pc="268438707" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="222" parent="globals/Simply_RandomView" pc="268438722" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="223" parent="globals/Simply_RandomView" pc="268438725" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="224" parent="globals/Simply_RandomView" pc="268438732" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="226" parent="globals/Simply_RandomView" pc="268438742" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="227" parent="globals/Simply_RandomView" pc="268438750" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="229" parent="globals/Simply_RandomView" pc="268438760" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="231" parent="globals/Simply_RandomView" pc="268438777" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="235" parent="globals/Simply_RandomView" pc="268438806" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="236" parent="globals/Simply_RandomView" pc="268438827" symbol="onUpdate"/>
-        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="238" parent="globals/Simply_RandomView" pc="268438844" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="108" parent="globals/Simply_RandomView" pc="268437860" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="109" parent="globals/Simply_RandomView" pc="268437881" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="110" parent="globals/Simply_RandomView" pc="268437898" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="113" parent="globals/Simply_RandomView" pc="268437930" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="115" parent="globals/Simply_RandomView" pc="268437938" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="116" parent="globals/Simply_RandomView" pc="268437963" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="117" parent="globals/Simply_RandomView" pc="268437967" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="122" parent="globals/Simply_RandomView" pc="268437974" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="123" parent="globals/Simply_RandomView" pc="268437990" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="125" parent="globals/Simply_RandomView" pc="268437997" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="127" parent="globals/Simply_RandomView" pc="268438008" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="128" parent="globals/Simply_RandomView" pc="268438020" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="129" parent="globals/Simply_RandomView" pc="268438032" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="133" parent="globals/Simply_RandomView" pc="268438045" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="138" parent="globals/Simply_RandomView" pc="268438065" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="139" parent="globals/Simply_RandomView" pc="268438077" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="143" parent="globals/Simply_RandomView" pc="268438092" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="144" parent="globals/Simply_RandomView" pc="268438118" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="146" parent="globals/Simply_RandomView" pc="268438125" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="147" parent="globals/Simply_RandomView" pc="268438142" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="149" parent="globals/Simply_RandomView" pc="268438174" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="150" parent="globals/Simply_RandomView" pc="268438182" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="151" parent="globals/Simply_RandomView" pc="268438197" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="152" parent="globals/Simply_RandomView" pc="268438200" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="153" parent="globals/Simply_RandomView" pc="268438207" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="155" parent="globals/Simply_RandomView" pc="268438217" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="156" parent="globals/Simply_RandomView" pc="268438225" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="158" parent="globals/Simply_RandomView" pc="268438235" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="159" parent="globals/Simply_RandomView" pc="268438252" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="161" parent="globals/Simply_RandomView" pc="268438284" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="164" parent="globals/Simply_RandomView" pc="268438292" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="165" parent="globals/Simply_RandomView" pc="268438299" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="166" parent="globals/Simply_RandomView" pc="268438325" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="168" parent="globals/Simply_RandomView" pc="268438332" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="169" parent="globals/Simply_RandomView" pc="268438349" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="171" parent="globals/Simply_RandomView" pc="268438381" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="172" parent="globals/Simply_RandomView" pc="268438389" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="173" parent="globals/Simply_RandomView" pc="268438404" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="174" parent="globals/Simply_RandomView" pc="268438407" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="175" parent="globals/Simply_RandomView" pc="268438414" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="177" parent="globals/Simply_RandomView" pc="268438424" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="178" parent="globals/Simply_RandomView" pc="268438432" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="180" parent="globals/Simply_RandomView" pc="268438442" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="181" parent="globals/Simply_RandomView" pc="268438459" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="186" parent="globals/Simply_RandomView" pc="268438491" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="187" parent="globals/Simply_RandomView" pc="268438498" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="188" parent="globals/Simply_RandomView" pc="268438551" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="190" parent="globals/Simply_RandomView" pc="268438610" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="191" parent="globals/Simply_RandomView" pc="268438618" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="192" parent="globals/Simply_RandomView" pc="268438639" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="193" parent="globals/Simply_RandomView" pc="268438656" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="194" parent="globals/Simply_RandomView" pc="268438672" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="196" parent="globals/Simply_RandomView" pc="268438701" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="198" parent="globals/Simply_RandomView" pc="268438709" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="199" parent="globals/Simply_RandomView" pc="268438734" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="200" parent="globals/Simply_RandomView" pc="268438738" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="205" parent="globals/Simply_RandomView" pc="268438745" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="206" parent="globals/Simply_RandomView" pc="268438761" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="208" parent="globals/Simply_RandomView" pc="268438768" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="210" parent="globals/Simply_RandomView" pc="268438779" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="211" parent="globals/Simply_RandomView" pc="268438791" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="212" parent="globals/Simply_RandomView" pc="268438803" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="216" parent="globals/Simply_RandomView" pc="268438816" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="221" parent="globals/Simply_RandomView" pc="268438836" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="222" parent="globals/Simply_RandomView" pc="268438848" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="226" parent="globals/Simply_RandomView" pc="268438863" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="227" parent="globals/Simply_RandomView" pc="268438889" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="229" parent="globals/Simply_RandomView" pc="268438896" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="231" parent="globals/Simply_RandomView" pc="268438913" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="233" parent="globals/Simply_RandomView" pc="268438942" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="234" parent="globals/Simply_RandomView" pc="268438950" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="235" parent="globals/Simply_RandomView" pc="268438965" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="236" parent="globals/Simply_RandomView" pc="268438968" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="237" parent="globals/Simply_RandomView" pc="268438975" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="239" parent="globals/Simply_RandomView" pc="268438985" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="240" parent="globals/Simply_RandomView" pc="268438993" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="242" parent="globals/Simply_RandomView" pc="268439003" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="244" parent="globals/Simply_RandomView" pc="268439020" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="246" parent="globals/Simply_RandomView" pc="268439049" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="249" parent="globals/Simply_RandomView" pc="268439057" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="250" parent="globals/Simply_RandomView" pc="268439064" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="251" parent="globals/Simply_RandomView" pc="268439090" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="253" parent="globals/Simply_RandomView" pc="268439097" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="255" parent="globals/Simply_RandomView" pc="268439114" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="257" parent="globals/Simply_RandomView" pc="268439143" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="260" parent="globals/Simply_RandomView" pc="268439151" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="282" parent="globals/Simply_RandomView" pc="268439158" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="283" parent="globals/Simply_RandomView" pc="268439184" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="285" parent="globals/Simply_RandomView" pc="268439191" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="287" parent="globals/Simply_RandomView" pc="268439208" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="289" parent="globals/Simply_RandomView" pc="268439237" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="291" parent="globals/Simply_RandomView" pc="268439245" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="292" parent="globals/Simply_RandomView" pc="268439260" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="293" parent="globals/Simply_RandomView" pc="268439263" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="294" parent="globals/Simply_RandomView" pc="268439270" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="296" parent="globals/Simply_RandomView" pc="268439280" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="297" parent="globals/Simply_RandomView" pc="268439288" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="299" parent="globals/Simply_RandomView" pc="268439298" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="301" parent="globals/Simply_RandomView" pc="268439315" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="306" parent="globals/Simply_RandomView" pc="268439344" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="307" parent="globals/Simply_RandomView" pc="268439352" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="308" parent="globals/Simply_RandomView" pc="268439373" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="309" parent="globals/Simply_RandomView" pc="268439390" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="312" parent="globals/Simply_RandomView" pc="268439422" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="314" parent="globals/Simply_RandomView" pc="268439430" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="315" parent="globals/Simply_RandomView" pc="268439455" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="316" parent="globals/Simply_RandomView" pc="268439459" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="321" parent="globals/Simply_RandomView" pc="268439466" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="322" parent="globals/Simply_RandomView" pc="268439482" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="324" parent="globals/Simply_RandomView" pc="268439489" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="326" parent="globals/Simply_RandomView" pc="268439500" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="327" parent="globals/Simply_RandomView" pc="268439512" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="328" parent="globals/Simply_RandomView" pc="268439524" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="332" parent="globals/Simply_RandomView" pc="268439537" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="337" parent="globals/Simply_RandomView" pc="268439557" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="338" parent="globals/Simply_RandomView" pc="268439569" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="342" parent="globals/Simply_RandomView" pc="268439584" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="343" parent="globals/Simply_RandomView" pc="268439610" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="345" parent="globals/Simply_RandomView" pc="268439617" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="346" parent="globals/Simply_RandomView" pc="268439634" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="348" parent="globals/Simply_RandomView" pc="268439666" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="349" parent="globals/Simply_RandomView" pc="268439674" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="350" parent="globals/Simply_RandomView" pc="268439689" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="351" parent="globals/Simply_RandomView" pc="268439692" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="352" parent="globals/Simply_RandomView" pc="268439699" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="354" parent="globals/Simply_RandomView" pc="268439709" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="355" parent="globals/Simply_RandomView" pc="268439717" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="357" parent="globals/Simply_RandomView" pc="268439727" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="358" parent="globals/Simply_RandomView" pc="268439744" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="360" parent="globals/Simply_RandomView" pc="268439776" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="363" parent="globals/Simply_RandomView" pc="268439784" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="364" parent="globals/Simply_RandomView" pc="268439791" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="365" parent="globals/Simply_RandomView" pc="268439817" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="367" parent="globals/Simply_RandomView" pc="268439824" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="368" parent="globals/Simply_RandomView" pc="268439841" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="370" parent="globals/Simply_RandomView" pc="268439873" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="371" parent="globals/Simply_RandomView" pc="268439881" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="372" parent="globals/Simply_RandomView" pc="268439896" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="373" parent="globals/Simply_RandomView" pc="268439899" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="374" parent="globals/Simply_RandomView" pc="268439906" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="376" parent="globals/Simply_RandomView" pc="268439916" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="377" parent="globals/Simply_RandomView" pc="268439924" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="379" parent="globals/Simply_RandomView" pc="268439934" symbol="onUpdate"/>
+        <entry filename="/home/kaden/Code/Garmin Projects/Simply-Random/source/View.mc" id="25" lineNum="380" parent="globals/Simply_RandomView" pc="268439951" symbol="onUpdate"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -303,38 +385,67 @@
         <entry arg="true" endPc="268437416" name="side" stackId="4" startPc="268436680"/>
         <entry arg="true" endPc="268437416" name="number" stackId="5" startPc="268436680"/>
         <entry arg="true" endPc="268437567" name="view" stackId="1" startPc="268437544"/>
-        <entry arg="true" endPc="268438873" name="dc" stackId="1" startPc="268437659"/>
-        <entry endPc="268438872" name="MainMode" stackId="2" startPc="268437662"/>
-        <entry endPc="268438872" name="TopMode" stackId="3" startPc="268437662"/>
-        <entry endPc="268438872" name="BottomMode" stackId="4" startPc="268437662"/>
-        <entry endPc="268438872" name="screen_height" stackId="5" startPc="268437662"/>
-        <entry endPc="268438872" name="screen_width" stackId="6" startPc="268437662"/>
-        <entry endPc="268438872" name="dc_height" stackId="7" startPc="268437662"/>
-        <entry endPc="268438872" name="dc_width" stackId="8" startPc="268437662"/>
-        <entry endPc="268438872" name="range_min" stackId="9" startPc="268437662"/>
-        <entry endPc="268438872" name="range_max" stackId="10" startPc="268437662"/>
-        <entry endPc="268438872" name="range_diff" stackId="11" startPc="268437662"/>
-        <entry endPc="268438143" name="randInt" stackId="12" startPc="268438064"/>
-        <entry endPc="268438384" name="rawNameList" stackId="13" startPc="268438155"/>
-        <entry endPc="268438384" name="finalNameList" stackId="14" startPc="268438155"/>
-        <entry endPc="268438384" name="currentName" stackId="15" startPc="268438155"/>
-        <entry endPc="268438384" name="char" stackId="16" startPc="268438155"/>
-        <entry endPc="268438384" name="nameInt" stackId="17" startPc="268438155"/>
-        <entry endPc="268438384" name="nameResult" stackId="18" startPc="268438155"/>
-        <entry endPc="268438281" name="i" stackId="19" startPc="268438207"/>
-        <entry endPc="268438507" name="randBool" stackId="20" startPc="268438396"/>
-        <entry endPc="268438507" name="displayText" stackId="21" startPc="268438396"/>
-        <entry endPc="268438601" name="rpsInt" stackId="22" startPc="268438519"/>
-        <entry endPc="268438601" name="rpsResult" stackId="23" startPc="268438519"/>
-        <entry endPc="268438601" name="rpsArray" stackId="24" startPc="268438519"/>
-        <entry endPc="268438695" name="eightBallInt" stackId="25" startPc="268438613"/>
-        <entry endPc="268438695" name="eightBallResult" stackId="26" startPc="268438613"/>
-        <entry endPc="268438695" name="eightBallArray" stackId="27" startPc="268438613"/>
-        <entry endPc="268438802" name="coinRand" stackId="28" startPc="268438707"/>
-        <entry endPc="268438802" name="coinResult" stackId="29" startPc="268438707"/>
-        <entry endPc="268438872" name="randInt" stackId="30" startPc="268437662"/>
+        <entry arg="true" endPc="268439983" name="dc" stackId="1" startPc="268437659"/>
+        <entry endPc="268439982" name="MainMode" stackId="2" startPc="268437662"/>
+        <entry endPc="268439982" name="TopMode" stackId="3" startPc="268437662"/>
+        <entry endPc="268439982" name="BottomMode" stackId="4" startPc="268437662"/>
+        <entry endPc="268439982" name="screen_height" stackId="5" startPc="268437662"/>
+        <entry endPc="268439982" name="screen_width" stackId="6" startPc="268437662"/>
+        <entry endPc="268439982" name="dc_height" stackId="7" startPc="268437662"/>
+        <entry endPc="268439982" name="dc_width" stackId="8" startPc="268437662"/>
+        <entry endPc="268439982" name="range_min" stackId="9" startPc="268437662"/>
+        <entry endPc="268439982" name="range_max" stackId="10" startPc="268437662"/>
+        <entry endPc="268439982" name="range_diff" stackId="11" startPc="268437662"/>
+        <entry endPc="268437926" name="randInt" stackId="12" startPc="268437860"/>
+        <entry endPc="268438170" name="rawNameList" stackId="13" startPc="268437938"/>
+        <entry endPc="268438170" name="finalNameList" stackId="14" startPc="268437938"/>
+        <entry endPc="268438170" name="currentName" stackId="15" startPc="268437938"/>
+        <entry endPc="268438170" name="char" stackId="16" startPc="268437938"/>
+        <entry endPc="268438170" name="nameInt" stackId="17" startPc="268437938"/>
+        <entry endPc="268438170" name="nameResult" stackId="18" startPc="268437938"/>
+        <entry endPc="268438064" name="i" stackId="19" startPc="268437990"/>
+        <entry endPc="268438280" name="randBool" stackId="20" startPc="268438182"/>
+        <entry endPc="268438280" name="displayText" stackId="21" startPc="268438182"/>
+        <entry endPc="268438377" name="rpsInt" stackId="22" startPc="268438292"/>
+        <entry endPc="268438377" name="rpsResult" stackId="23" startPc="268438292"/>
+        <entry endPc="268438377" name="rpsArray" stackId="24" startPc="268438292"/>
+        <entry endPc="268438487" name="coinRand" stackId="25" startPc="268438389"/>
+        <entry endPc="268438487" name="coinResult" stackId="26" startPc="268438389"/>
+        <entry endPc="268438697" name="randInt" stackId="27" startPc="268438618"/>
+        <entry endPc="268438938" name="rawNameList" stackId="28" startPc="268438709"/>
+        <entry endPc="268438938" name="finalNameList" stackId="29" startPc="268438709"/>
+        <entry endPc="268438938" name="currentName" stackId="30" startPc="268438709"/>
+        <entry endPc="268438938" name="char" stackId="31" startPc="268438709"/>
+        <entry endPc="268438938" name="nameInt" stackId="32" startPc="268438709"/>
+        <entry endPc="268438938" name="nameResult" stackId="33" startPc="268438709"/>
+        <entry endPc="268438835" name="i" stackId="34" startPc="268438761"/>
+        <entry endPc="268439045" name="randBool" stackId="35" startPc="268438950"/>
+        <entry endPc="268439045" name="displayText" stackId="36" startPc="268438950"/>
+        <entry endPc="268439139" name="rpsInt" stackId="37" startPc="268439057"/>
+        <entry endPc="268439139" name="rpsResult" stackId="38" startPc="268439057"/>
+        <entry endPc="268439139" name="rpsArray" stackId="39" startPc="268439057"/>
+        <entry endPc="268439233" name="eightBallInt" stackId="40" startPc="268439151"/>
+        <entry endPc="268439233" name="eightBallResult" stackId="41" startPc="268439151"/>
+        <entry endPc="268439233" name="eightBallArray" stackId="42" startPc="268439151"/>
+        <entry endPc="268439340" name="coinRand" stackId="43" startPc="268439245"/>
+        <entry endPc="268439340" name="coinResult" stackId="44" startPc="268439245"/>
+        <entry endPc="268439418" name="randInt" stackId="45" startPc="268439352"/>
+        <entry endPc="268439662" name="rawNameList" stackId="46" startPc="268439430"/>
+        <entry endPc="268439662" name="finalNameList" stackId="47" startPc="268439430"/>
+        <entry endPc="268439662" name="currentName" stackId="48" startPc="268439430"/>
+        <entry endPc="268439662" name="char" stackId="49" startPc="268439430"/>
+        <entry endPc="268439662" name="nameInt" stackId="50" startPc="268439430"/>
+        <entry endPc="268439662" name="nameResult" stackId="51" startPc="268439430"/>
+        <entry endPc="268439556" name="i" stackId="52" startPc="268439482"/>
+        <entry endPc="268439772" name="randBool" stackId="53" startPc="268439674"/>
+        <entry endPc="268439772" name="displayText" stackId="54" startPc="268439674"/>
+        <entry endPc="268439869" name="rpsInt" stackId="55" startPc="268439784"/>
+        <entry endPc="268439869" name="rpsResult" stackId="56" startPc="268439784"/>
+        <entry endPc="268439869" name="rpsArray" stackId="57" startPc="268439784"/>
+        <entry endPc="268439979" name="coinRand" stackId="58" startPc="268439881"/>
+        <entry endPc="268439979" name="coinResult" stackId="59" startPc="268439881"/>
     </localVars>
-    <deviceInfo deviceVersion="8fc30743a4191ec19bcafa28e3ffcc2b5a958a17" partNumber="006-B4585-00"/>
+    <deviceInfo deviceVersion="5c7ae9cf907f88c116a91dc4ffd75be9b5b7d2e9" partNumber="006-B4258-00"/>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
         <annotationEntry annotation="glance" class="Simply_RandomApp" module="globals" symbol="onStop"/>
@@ -459,7 +570,7 @@
         <functionEntry accessMode="public" name="onHide" parent="Simply_RandomView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438873" name="onUpdate" parent="Simply_RandomView" startPc="268437659">
+        <functionEntry accessMode="public" endPc="268439983" name="onUpdate" parent="Simply_RandomView" startPc="268437659">
             <param id="dc"/>
             <documentation/>
         </functionEntry>

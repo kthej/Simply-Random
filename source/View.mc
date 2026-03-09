@@ -104,11 +104,81 @@ class Simply_RandomView extends WatchUi.View {
 
         dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_BLACK);
         
-        if (randBool == 0){
-            dc.drawText(screen_width/2,screen_height/16,Graphics.FONT_SMALL,"No",Graphics.TEXT_JUSTIFY_CENTER);
+        if(TopMode == 1){
+        var randInt = (Math.rand() % (range_diff + 1))+range_min;
+        dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
+        dc.drawText(dc_width/2,dc_height*1/8,Graphics.FONT_LARGE,randInt, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
         }
-        else if(randBool == 1){
-            dc.drawText(screen_width/2,screen_height/16,Graphics.FONT_TINY,"Yes",Graphics.TEXT_JUSTIFY_CENTER);
+
+        else if(TopMode == 2){
+            // AI-Generated code to handle parsing name list into accessible array. It did the busywork, not the creative work :)
+            var rawNameList = Properties.getValue("NameList").toCharArray();
+            var finalNameList = [];
+            var currentName = "";
+            var char;
+            var nameInt;
+            var nameResult;
+
+            for (var i = 0; i < rawNameList.size(); i++) {
+                char = rawNameList[i];
+
+                if (char == ',') {
+                    // If we hit a comma, save the current string and reset it
+                    if (currentName.length() > 0) {
+                        finalNameList.add(currentName);
+                        currentName = "";
+                    }
+                } else {
+                // No need for .toChar() if the array already contains Char objects
+                currentName += rawNameList[i];
+            }   
+            }
+
+            // Add the very last name after the final comma (or if there was only one name)
+            if (currentName.length() > 0) {
+                finalNameList.add(currentName);
+            }
+
+
+            nameInt = Math.rand() % finalNameList.size().toNumber();
+            nameResult = finalNameList[nameInt];
+
+            dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
+            dc.drawText(dc_width/2,dc_height*1/8,Graphics.FONT_LARGE,nameResult, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        }
+        else if(TopMode == 3){
+            var randBool = (Math.rand() % 2);
+            var displayText = null;
+            if(randBool == 0){
+                displayText = "No";
+            }
+            else if(randBool == 1){
+                displayText = "Yes";
+            }
+            dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
+            dc.drawText(dc_width/2,dc_height*1/8,Graphics.FONT_LARGE,displayText, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        }
+        else if(TopMode == 4){
+            var rpsInt;
+            var rpsResult;
+            var rpsArray = ["Rock", "Paper", "Scissors"];
+            rpsInt = Math.rand() % rpsArray.size().toNumber();
+            rpsResult = rpsArray[rpsInt];
+
+            dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
+            dc.drawText(dc_width/2,dc_height*1/8,Graphics.FONT_LARGE,rpsResult, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        }
+        else if(TopMode == 6){
+            var coinRand = Math.rand()%2;
+            var coinResult = null;
+            if (coinRand == 0){
+                coinResult = "Tails";
+            }
+            else if(coinRand == 1){
+                coinResult = "Heads";
+            }
+            dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
+            dc.drawText(dc_width/2,dc_height*1/8,Graphics.FONT_LARGE,coinResult, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
         }
 
 // Main Item ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -170,7 +240,7 @@ class Simply_RandomView extends WatchUi.View {
             displayText = "Yes";
         }
         dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
-        dc.drawRectangle(0,0,dc_width,dc_height);
+        
         dc.drawText(dc_width/2,dc_height/2,Graphics.FONT_LARGE,displayText, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
     }
     else if(MainMode == 4){
@@ -198,7 +268,7 @@ class Simply_RandomView extends WatchUi.View {
         "Outlook good.",
         "Yes.",
         "Signs point to yes.",
-        "Reply hazy,\n try again",
+        "Reply hazy,\n try again.",
         "Ask again later.",
         "Better not\n tell you now.",
         "Cannot predict now.",
@@ -233,10 +303,82 @@ class Simply_RandomView extends WatchUi.View {
 
 // Bottom Item //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+        if(BottomMode == 1){
         var randInt = (Math.rand() % (range_diff + 1))+range_min;
         dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
-
         dc.drawText(dc_width/2,dc_height*7/8,Graphics.FONT_LARGE,randInt, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        }
+
+        else if(BottomMode == 2){
+            // AI-Generated code to handle parsing name list into accessible array. It did the busywork, not the creative work :)
+            var rawNameList = Properties.getValue("NameList").toCharArray();
+            var finalNameList = [];
+            var currentName = "";
+            var char;
+            var nameInt;
+            var nameResult;
+
+            for (var i = 0; i < rawNameList.size(); i++) {
+                char = rawNameList[i];
+
+                if (char == ',') {
+                    // If we hit a comma, save the current string and reset it
+                    if (currentName.length() > 0) {
+                        finalNameList.add(currentName);
+                        currentName = "";
+                    }
+                } else {
+                // No need for .toChar() if the array already contains Char objects
+                currentName += rawNameList[i];
+            }   
+            }
+
+            // Add the very last name after the final comma (or if there was only one name)
+            if (currentName.length() > 0) {
+                finalNameList.add(currentName);
+            }
+
+
+            nameInt = Math.rand() % finalNameList.size().toNumber();
+            nameResult = finalNameList[nameInt];
+
+            dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
+            dc.drawText(dc_width/2,dc_height*7/8,Graphics.FONT_LARGE,nameResult, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        }
+        else if(BottomMode == 3){
+            var randBool = (Math.rand() % 2);
+            var displayText = null;
+            if(randBool == 0){
+                displayText = "No";
+            }
+            else if(randBool == 1){
+                displayText = "Yes";
+            }
+            dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
+            dc.drawText(dc_width/2,dc_height*7/8,Graphics.FONT_LARGE,displayText, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        }
+        else if(BottomMode == 4){
+            var rpsInt;
+            var rpsResult;
+            var rpsArray = ["Rock", "Paper", "Scissors"];
+            rpsInt = Math.rand() % rpsArray.size().toNumber();
+            rpsResult = rpsArray[rpsInt];
+
+            dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
+            dc.drawText(dc_width/2,dc_height*7/8,Graphics.FONT_LARGE,rpsResult, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        }
+        else if(BottomMode == 6){
+            var coinRand = Math.rand()%2;
+            var coinResult = null;
+            if (coinRand == 0){
+                coinResult = "Tails";
+            }
+            else if(coinRand == 1){
+                coinResult = "Heads";
+            }
+            dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
+            dc.drawText(dc_width/2,dc_height*7/8,Graphics.FONT_LARGE,coinResult, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        }
     }
 
 
